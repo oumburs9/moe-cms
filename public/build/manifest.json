@@ -1,43 +1,91 @@
 {
-  "resources/fonts/noto-sans-ethiopic-v42-latin_ethiopic-800.woff": {
-    "file": "assets/noto-sans-ethiopic-v42-latin_ethiopic-800.7a535342.woff",
-    "src": "resources/fonts/noto-sans-ethiopic-v42-latin_ethiopic-800.woff"
+  "resources/fonts/noto-sans-ethiopic-v42-latin_ethiopic-regular.woff": {
+    "file": "assets/noto-sans-ethiopic-v42-latin_ethiopic-regular.3c1237db.woff",
+    "src": "resources/fonts/noto-sans-ethiopic-v42-latin_ethiopic-regular.woff"
   },
-  "resources/fonts/noto-sans-ethiopic-v42-latin_ethiopic-200.woff": {
-    "file": "assets/noto-sans-ethiopic-v42-latin_ethiopic-200.29c3f764.woff",
-    "src": "resources/fonts/noto-sans-ethiopic-v42-latin_ethiopic-200.woff"
+  "resources/fonts/noto-sans-ethiopic-v42-latin_ethiopic-500.woff": {
+    "file": "assets/noto-sans-ethiopic-v42-latin_ethiopic-500.07f2ed2f.woff",
+    "src": "resources/fonts/noto-sans-ethiopic-v42-latin_ethiopic-500.woff"
   },
-  "resources/fonts/Gotham-Bold.otf": {
-    "file": "assets/Gotham-Bold.88b3795f.otf",
-    "src": "resources/fonts/Gotham-Bold.otf"
+  "resources/fonts/noto-sans-ethiopic-v42-latin_ethiopic-700.woff": {
+    "file": "assets/noto-sans-ethiopic-v42-latin_ethiopic-700.e1d2b023.woff",
+    "src": "resources/fonts/noto-sans-ethiopic-v42-latin_ethiopic-700.woff"
   },
-  "resources/fonts/Gotham-Book.otf": {
-    "file": "assets/Gotham-Book.d3c79bd7.otf",
-    "src": "resources/fonts/Gotham-Book.otf"
-  },
-  "resources/fonts/noto-sans-ethiopic-v42-latin_ethiopic-600.woff": {
-    "file": "assets/noto-sans-ethiopic-v42-latin_ethiopic-600.73ac8803.woff",
-    "src": "resources/fonts/noto-sans-ethiopic-v42-latin_ethiopic-600.woff"
+  "resources/fonts/noto-sans-ethiopic-v42-latin_ethiopic-300.woff": {
+    "file": "assets/noto-sans-ethiopic-v42-latin_ethiopic-300.ef3c55b0.woff",
+    "src": "resources/fonts/noto-sans-ethiopic-v42-latin_ethiopic-300.woff"
   },
   "resources/fonts/noto-sans-ethiopic-v42-latin_ethiopic-900.woff": {
     "file": "assets/noto-sans-ethiopic-v42-latin_ethiopic-900.2935ee74.woff",
     "src": "resources/fonts/noto-sans-ethiopic-v42-latin_ethiopic-900.woff"
   },
+  "resources/fonts/noto-sans-ethiopic-v42-latin_ethiopic-600.woff": {
+    "file": "assets/noto-sans-ethiopic-v42-latin_ethiopic-600.73ac8803.woff",
+    "src": "resources/fonts/noto-sans-ethiopic-v42-latin_ethiopic-600.woff"
+  },
+  "resources/fonts/Gotham-Medium.woff": {
+    "file": "assets/Gotham-Medium.82865201.woff",
+    "src": "resources/fonts/Gotham-Medium.woff"
+  },
+  "resources/fonts/Gotham-Light.woff": {
+    "file": "assets/Gotham-Light.25d9d5bf.woff",
+    "src": "resources/fonts/Gotham-Light.woff"
+  },
+  "resources/fonts/Gotham-Bold.woff": {
+    "file": "assets/Gotham-Bold.e0588d77.woff",
+    "src": "resources/fonts/Gotham-Bold.woff"
+  },
+  "resources/fonts/Gotham-Black.woff": {
+    "file": "assets/Gotham-Black.520ecf27.woff",
+    "src": "resources/fonts/Gotham-Black.woff"
+  },
+  "resources/fonts/Gotham-Ultra.woff": {
+    "file": "assets/Gotham-Ultra.3a98b356.woff",
+    "src": "resources/fonts/Gotham-Ultra.woff"
+  },
+  "resources/fonts/noto-sans-ethiopic-v42-latin_ethiopic-regular.woff2": {
+    "file": "assets/noto-sans-ethiopic-v42-latin_ethiopic-regular.4818011d.woff2",
+    "src": "resources/fonts/noto-sans-ethiopic-v42-latin_ethiopic-regular.woff2"
+  },
+  "resources/fonts/noto-sans-ethiopic-v42-latin_ethiopic-500.woff2": {
+    "file": "assets/noto-sans-ethiopic-v42-latin_ethiopic-500.ecb83da5.woff2",
+    "src": "resources/fonts/noto-sans-ethiopic-v42-latin_ethiopic-500.woff2"
+  },
+  "resources/fonts/noto-sans-ethiopic-v42-latin_ethiopic-300.woff2": {
+    "file": "assets/noto-sans-ethiopic-v42-latin_ethiopic-300.7c640b51.woff2",
+    "src": "resources/fonts/noto-sans-ethiopic-v42-latin_ethiopic-300.woff2"
+  },
   "resources/fonts/noto-sans-ethiopic-v42-latin_ethiopic-600.woff2": {
     "file": "assets/noto-sans-ethiopic-v42-latin_ethiopic-600.c9ce06b6.woff2",
     "src": "resources/fonts/noto-sans-ethiopic-v42-latin_ethiopic-600.woff2"
   },
-  "resources/fonts/noto-sans-ethiopic-v42-latin_ethiopic-800.woff2": {
-    "file": "assets/noto-sans-ethiopic-v42-latin_ethiopic-800.9168cba5.woff2",
-    "src": "resources/fonts/noto-sans-ethiopic-v42-latin_ethiopic-800.woff2"
+  "resources/fonts/noto-sans-ethiopic-v42-latin_ethiopic-700.woff2": {
+    "file": "assets/noto-sans-ethiopic-v42-latin_ethiopic-700.9bfbc91c.woff2",
+    "src": "resources/fonts/noto-sans-ethiopic-v42-latin_ethiopic-700.woff2"
   },
   "resources/fonts/noto-sans-ethiopic-v42-latin_ethiopic-900.woff2": {
     "file": "assets/noto-sans-ethiopic-v42-latin_ethiopic-900.a9cf216f.woff2",
     "src": "resources/fonts/noto-sans-ethiopic-v42-latin_ethiopic-900.woff2"
   },
-  "resources/fonts/noto-sans-ethiopic-v42-latin_ethiopic-200.woff2": {
-    "file": "assets/noto-sans-ethiopic-v42-latin_ethiopic-200.55ee17c4.woff2",
-    "src": "resources/fonts/noto-sans-ethiopic-v42-latin_ethiopic-200.woff2"
+  "resources/fonts/Gotham-Medium.woff2": {
+    "file": "assets/Gotham-Medium.3aab0e44.woff2",
+    "src": "resources/fonts/Gotham-Medium.woff2"
+  },
+  "resources/fonts/Gotham-Light.woff2": {
+    "file": "assets/Gotham-Light.5f17d537.woff2",
+    "src": "resources/fonts/Gotham-Light.woff2"
+  },
+  "resources/fonts/Gotham-Bold.woff2": {
+    "file": "assets/Gotham-Bold.e9454169.woff2",
+    "src": "resources/fonts/Gotham-Bold.woff2"
+  },
+  "resources/fonts/Gotham-Black.woff2": {
+    "file": "assets/Gotham-Black.8537cca4.woff2",
+    "src": "resources/fonts/Gotham-Black.woff2"
+  },
+  "resources/fonts/Gotham-Ultra.woff2": {
+    "file": "assets/Gotham-Ultra.f1c2903c.woff2",
+    "src": "resources/fonts/Gotham-Ultra.woff2"
   },
   "resources/js/app.js": {
     "file": "assets/app.76ec6e4f.js",
@@ -45,7 +93,7 @@
     "isEntry": true
   },
   "resources/css/app.css": {
-    "file": "assets/app.e4aafb51.css",
+    "file": "assets/app.430cd187.css",
     "src": "resources/css/app.css",
     "isEntry": true
   }
