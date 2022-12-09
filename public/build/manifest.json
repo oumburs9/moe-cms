@@ -1,11 +1,51 @@
 {
+  "resources/fonts/noto-sans-ethiopic-v42-latin_ethiopic-800.woff": {
+    "file": "assets/noto-sans-ethiopic-v42-latin_ethiopic-800.7a535342.woff",
+    "src": "resources/fonts/noto-sans-ethiopic-v42-latin_ethiopic-800.woff"
+  },
+  "resources/fonts/noto-sans-ethiopic-v42-latin_ethiopic-200.woff": {
+    "file": "assets/noto-sans-ethiopic-v42-latin_ethiopic-200.29c3f764.woff",
+    "src": "resources/fonts/noto-sans-ethiopic-v42-latin_ethiopic-200.woff"
+  },
+  "resources/fonts/Gotham-Bold.otf": {
+    "file": "assets/Gotham-Bold.88b3795f.otf",
+    "src": "resources/fonts/Gotham-Bold.otf"
+  },
+  "resources/fonts/Gotham-Book.otf": {
+    "file": "assets/Gotham-Book.d3c79bd7.otf",
+    "src": "resources/fonts/Gotham-Book.otf"
+  },
+  "resources/fonts/noto-sans-ethiopic-v42-latin_ethiopic-600.woff": {
+    "file": "assets/noto-sans-ethiopic-v42-latin_ethiopic-600.73ac8803.woff",
+    "src": "resources/fonts/noto-sans-ethiopic-v42-latin_ethiopic-600.woff"
+  },
+  "resources/fonts/noto-sans-ethiopic-v42-latin_ethiopic-900.woff": {
+    "file": "assets/noto-sans-ethiopic-v42-latin_ethiopic-900.2935ee74.woff",
+    "src": "resources/fonts/noto-sans-ethiopic-v42-latin_ethiopic-900.woff"
+  },
+  "resources/fonts/noto-sans-ethiopic-v42-latin_ethiopic-600.woff2": {
+    "file": "assets/noto-sans-ethiopic-v42-latin_ethiopic-600.c9ce06b6.woff2",
+    "src": "resources/fonts/noto-sans-ethiopic-v42-latin_ethiopic-600.woff2"
+  },
+  "resources/fonts/noto-sans-ethiopic-v42-latin_ethiopic-800.woff2": {
+    "file": "assets/noto-sans-ethiopic-v42-latin_ethiopic-800.9168cba5.woff2",
+    "src": "resources/fonts/noto-sans-ethiopic-v42-latin_ethiopic-800.woff2"
+  },
+  "resources/fonts/noto-sans-ethiopic-v42-latin_ethiopic-900.woff2": {
+    "file": "assets/noto-sans-ethiopic-v42-latin_ethiopic-900.a9cf216f.woff2",
+    "src": "resources/fonts/noto-sans-ethiopic-v42-latin_ethiopic-900.woff2"
+  },
+  "resources/fonts/noto-sans-ethiopic-v42-latin_ethiopic-200.woff2": {
+    "file": "assets/noto-sans-ethiopic-v42-latin_ethiopic-200.55ee17c4.woff2",
+    "src": "resources/fonts/noto-sans-ethiopic-v42-latin_ethiopic-200.woff2"
+  },
   "resources/js/app.js": {
     "file": "assets/app.76ec6e4f.js",
     "src": "resources/js/app.js",
     "isEntry": true
   },
   "resources/css/app.css": {
-    "file": "assets/app.ede9da46.css",
+    "file": "assets/app.e4aafb51.css",
     "src": "resources/css/app.css",
     "isEntry": true
   }
