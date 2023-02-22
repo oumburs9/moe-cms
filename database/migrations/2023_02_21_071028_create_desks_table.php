@@ -15,6 +15,13 @@ return new class extends Migration
     {
         Schema::create('desks', function (Blueprint $table) {
             $table->id();
+            $table->string('name');
+            $table->string('description');
+            
+            $table->foreignId('user_id')->constrained();
+            $table->foreignId('language_id')->constrained();
+            $table->foreignId('directorate_id')->constrained();
+
             $table->timestamps();
         });
     }

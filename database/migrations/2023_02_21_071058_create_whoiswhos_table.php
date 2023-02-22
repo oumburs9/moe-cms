@@ -15,6 +15,20 @@ return new class extends Migration
     {
         Schema::create('whoiswhos', function (Blueprint $table) {
             $table->id();
+            $table->string('name');
+            $table->string('title');
+            $table->string('facebook');
+            $table->string('twitter');
+            $table->string('linkedin');
+            $table->string('telegram');
+            $table->string('email')->unique();
+            $table->bigInteger('assigned_user');
+            $table->boolean('is_published');
+
+            
+            $table->foreignId('user_id')->constrained();
+            $table->foreignId('language_id')->constrained();
+            
             $table->timestamps();
         });
     }

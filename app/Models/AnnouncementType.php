@@ -8,4 +8,10 @@ use Illuminate\Database\Eloquent\Model;
 class AnnouncementType extends Model
 {
     use HasFactory;
+
+    
+    public function announcements()
+    {
+        return $this->hasMany(Announcement::class);
+    }
 }

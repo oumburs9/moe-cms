@@ -15,6 +15,13 @@ return new class extends Migration
     {
         Schema::create('ministors', function (Blueprint $table) {
             $table->id();
+            $table->string('name');
+            $table->boolean('is_published');
+            $table->date('year');
+            
+            $table->foreignId('user_id')->constrained();
+            $table->foreignId('language_id')->constrained();
+
             $table->timestamps();
         });
     }
