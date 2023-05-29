@@ -68,7 +68,7 @@
     }
 
     /* English Font */
-
+    /* 
     @font-face {
         font-family: "Gotham";
         font-weight: 100;
@@ -121,7 +121,7 @@
         font-family: "Gotham";
         font-weight: 900;
         src: url("../fonts/Gotham-Ultra.woff") format("woff");
-    }
+    } */
 
     /* Chrome, Safari, Edge, Opera */
     input::-webkit-outer-spin-button,
@@ -134,4 +134,5 @@
     input[type=number] {
         -moz-appearance: textfield;
     }
+
 }
