@@ -1,115 +1,23 @@
 <x-guest-layout>
-    <!-- Start Hero -->
-    <section id="controls-carousel" class="relative" data-carousel="slide">
-        <div class="overflow-hidden relative h-screen inset-0">
-            <div class="flex items-center justify-center transition-all duration-700 ease-in-out" data-carousel-item="">
-                <div
-                    class="image-wrap absolute inset-0 -top-[350px] -bottom-[350px] -left-[100px] -right-[100px] min-w-full w-auto min-h-full h-auto overflow-hidden m-auto z-1 bg-[url('https://moe.gov.et/storage/slideimg/std2_1617878215.jpg')] bg-top bg-no-repeat bg-cover">
-                </div>
-                <div
-                    class="absolute inset-0 md:bg-gradient-to-r md:from-black/60 md:via-black/40 md:bg-black/20 bg-black/60 z-10">
-                </div>
-                <div class="container z-30">
-                    <div class="grid grid-cols-1 mt-10">
-                        <div class="md:text-left text-center">
-                            <h1 class="font-bold text-white lg:leading-normal leading-normal text-4xl lg:text-5xl mb-6">
-                                Take Care of Your Future</h1>
-                            <p class="text-white/70 text-lg max-w-xl">Launch your campaign and benefit from our
-                                expertise on designing and managing conversion centered Tailwind CSS v3.x html page.</p>
+    <x-home-slide.slide type="slide" buttons>
+        <x-home-slide.item
+            image="https://media.istockphoto.com/id/862945038/photo/african-little-girl-is-learning-english-language.jpg?s=612x612&w=0&k=20&c=7wkvXLQpZnmQrXwheGhXQZZdApL0tvF_7v-GCNhYnSI=" />
 
-                            <div class="mt-8">
-                                <a href=""
-                                    class="btn bg-blue hover:bg-indigo-700 border-blue hover:border-indigo-700 text-white rounded-md">Contact
-                                    us</a>
-                            </div>
-                        </div>
-                    </div>
-                    <!--end grid-->
-                </div>
-                <!--end container-->
-            </div>
+        <x-home-slide.item image="https://ethiopia.britishcouncil.org/sites/default/files/1.jpg" textposition="left" />
 
-            <div class="flex items-center justify-center transition-all duration-700 ease-in-out" data-carousel-item="">
-                <div
-                    class="absolute inset-0 image-wrap z-1 bg-[url('https://moe.gov.et/storage/slideimg/std8_1605880928_1606726497.jpg')] bg-top bg-no-repeat bg-cover">
-                </div>
-                <div
-                    class="absolute inset-0 md:bg-gradient-to-b md:from-transparent md:to-black md:bg-black/20 bg-black/70 z-10">
-                </div>
-                <div class="container z-10">
-                    <div class="grid grid-cols-1 mt-10">
-                        <div class="text-center">
-                            <h1 class="font-bold text-white lg:leading-normal leading-normal text-4xl lg:text-5xl mb-6">
-                                Let's Start With Techwind</h1>
-                            <p class="text-white/70 text-lg max-w-xl mx-auto">Launch your campaign and benefit from our
-                                expertise on designing and managing conversion centered Tailwind CSS v3.x html page.</p>
+        <x-home-slide.item image="https://www.inputfortwayne.com/galleries/highschoolgrads.jpg" textposition="center" />
 
-                            <div class="mt-8">
-                                <a href=""
-                                    class="btn bg-blue hover:bg-indigo-700 border-blue hover:border-indigo-700 text-white rounded-md">See
-                                    Services</a>
-                            </div>
-                        </div>
-                    </div>
-                    <!--end grid-->
-                </div>
-                <!--end container-->
-            </div>
+        <x-home-slide.item image="https://www.educationcannotwait.org/sites/default/files/2022-12/uni210627.jpeg"
+            textposition="right" />
 
-            <div class="flex items-center justify-center transition-all duration-700 ease-in-out" data-carousel-item="">
-                <div
-                    class="absolute inset-0 image-wrap z-1 bg-[url('https://moe.gov.et/storage/slideimg/std1_1605880953_4x_1607505010.jpg')] bg-top bg-no-repeat bg-cover">
-                </div>
-                <div
-                    class="absolute inset-0 md:bg-gradient-to-l md:from-black md:via-black/80 md:bg-black/20 bg-black/70 z-10">
-                </div>
-                <div class="container z-20">
-                    <div class="grid grid-cols-1 mt-10">
-                        <div class="md:text-right text-center">
-                            <h1 class="font-bold text-white lg:leading-normal leading-normal text-4xl lg:text-5xl mb-6">
-                                Build and Grow Your Business</h1>
-                            <p class="text-white/70 text-lg max-w-xl md:ml-auto">Launch your campaign and benefit from
-                                our expertise on designing and managing conversion centered Tailwind CSS v3.x html page.
-                            </p>
+        <x-home-slide.item
+            image="https://media.istockphoto.com/id/622035110/photo/african-little-girl-during-math-class-southern-ethiopia-east-africa.jpg?s=612x612&w=0&k=20&c=CSg6L_OVvqDqnZiPSlPNmIxfV_AvHet8eLK-Z8Y6wGI=" />
 
-                            <div class="mt-8">
-                                <a href=""
-                                    class="btn bg-blue hover:bg-indigo-700 border-blue hover:border-indigo-700 text-white rounded-md">Pricing
-                                    Plans</a>
-                            </div>
-                        </div>
-                    </div>
-                    <!--end grid-->
-                </div>
-                <!--end container-->
-            </div>
-        </div>
+        <x-home-slide.item image="https://i.pinimg.com/originals/6a/11/56/6a1156b0697df0394196541b74cc58af.jpg"
+            textposition="left" />
 
-        <button type="button"
-            class="flex absolute top-0 left-0 z-30 justify-center items-center px-4 h-full cursor-pointer group focus:outline-none"
-            data-carousel-prev="">
-            <span
-                class="inline-flex justify-center items-center w-8 h-8 rounded-full border border-white hover:border-blue hover:bg-blue group-focus:outline-none">
-                <svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"
-                    xmlns="http://www.w3.org/2000/svg">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
-                </svg>
-                <span class="hidden">Previous</span>
-            </span>
-        </button>
-        <button type="button"
-            class="flex absolute top-0 right-0 z-30 justify-center items-center px-4 h-full cursor-pointer group focus:outline-none"
-            data-carousel-next="">
-            <span
-                class="inline-flex justify-center items-center w-8 h-8 rounded-full border border-white hover:border-blue hover:bg-blue group-focus:outline-none">
-                <svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"
-                    xmlns="http://www.w3.org/2000/svg">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
-                </svg>
-                <span class="hidden">Next</span>
-            </span>
-        </button>
-    </section>
-    <!--end section-->
-    <!-- End Hero -->
+        <x-home-slide.item
+            image="https://img.freepik.com/premium-photo/everyone-will-be-so-proud-me-shot-young-woman-taking-selfies-graduation-day_590464-61541.jpg"
+            textposition="right" />
+    </x-home-slide.slide>
 </x-guest-layout>
