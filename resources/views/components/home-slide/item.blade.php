@@ -17,16 +17,16 @@
                     {{ $description ?? "Launch your campaign and benefit from our
                   expertise on designing and managing conversion centered Tailwind CSS v3.x html page."}}
                 </p>
-                <div class="mt-8">
+                {{-- <div class="mt-8">
                     <a href=""
                         class="py-2 px-4 bg-blue hover:bg-indigo-700 border-blue hover:border-indigo-700 text-white rounded-md">Contact
                         us</a>
-                </div>
+                </div> --}}
             </div>
         </div>
         <!--end grid-->
     </div>
-    <!--end container-->
+    <x-section.banner />
 </div>
 @endif
 
@@ -49,17 +49,11 @@
                     {{ $description ?? "Launch your campaign and benefit from our
                     expertise on designing and managing conversion centered Tailwind CSS v3.x html page."}}
                 </p>
-
-                <div class="mt-8">
-                    <a href=""
-                        class="py-2 px-4 bg-blue hover:bg-indigo-700 border-blue hover:border-indigo-700 text-white rounded-md">See
-                        Services</a>
-                </div>
             </div>
         </div>
         <!--end grid-->
     </div>
-    <!--end container-->
+    <x-section.banner />
 </div>
 @endif
 
@@ -81,16 +75,10 @@
                     {{ $description ?? "Launch your campaign and benefit from our
                     expertise on designing and managing conversion centered Tailwind CSS v3.x html page."}}
                 </p>
-
-                <div class="mt-8">
-                    <a href=""
-                        class="py-2 px-4 bg-blue hover:bg-indigo-700 border-blue hover:border-indigo-700 text-white rounded-md">Pricing
-                        Plans</a>
-                </div>
             </div>
         </div>
         <!--end grid-->
     </div>
-    <!--end container-->
+    <x-section.banner />
 </div>
 @endif

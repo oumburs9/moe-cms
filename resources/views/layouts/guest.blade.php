@@ -14,7 +14,8 @@
         @vite(['resources/css/app.css', 'resources/js/app.js'])
     </head>
 
-    <body class="font-noto text-base text-black dark:text-white dark:bg-slate-900 h-screen">
+    <body
+        class="font-noto text-base text-black dark:text-white bg-gradient-to-br from-white via-white to-blue/5 h-auto">
         <x-navbar.nav />
         <main>
             {{ $slot }}
@@ -25,7 +26,6 @@
         <!-- JAVASCRIPTS -->
         @stack('modals')
         <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.js"></script>
-
         @livewireScripts
     </body>
 

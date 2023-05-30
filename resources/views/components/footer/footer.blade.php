@@ -92,8 +92,8 @@
     </div>
     <!--end container-->
     <div class="px-0 backdrop:blur-lg border-t border-light/40">
-        <div class="py-[10px]  container mx-auto">
-            <p class="flex mb-0 w-full justify-center lg:justify-end items-center">
+        <div class="py-[10px] container mx-auto">
+            <p class="text-sm flex mb-0 w-full justify-center lg:justify-end items-center">
                 © {{ now()->year }} FDRE Ministry of Education
                 <span>
                     <img src="/ethiopia.png" alt="ethiopian flag" srcset="" class="w-5 mx-1">
