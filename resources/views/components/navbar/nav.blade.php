@@ -67,12 +67,7 @@
         </x-navbar.menu>
 
     </div>
-    {{-- <div id="banner" class="w-full container mx-auto flex  " style="height: 10px">
-        <div class="bg-yellow h-full w-3/12 md:rounded-l-full"></div>
-        <div class="bg-red h-full w-4/12"></div>
-        <div class="bg-sky h-full w-2/12"></div>
-        <div class="bg-blue h-full w-3/12 md:rounded-r-full"></div>
-    </div> --}}
+
 </nav>
 <script>
     // When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
@@ -91,102 +86,3 @@
 		}
 	}
 </script>
-{{-- <nav id="topnav" class="defaultscroll is-sticky">
-    <div class="flex items-center justify-between mx-2 sm:mx-10">
-        <!-- Logo container-->
-
-
-        <div id="navigation">
-            <!-- Navigation Menu-->
-            <ul class="navigation-menu nav-light justify-end">
-                <li><a href="/" class="sub-menu-item">Home</a></li>
-
-                <li class="has-submenu parent-menu-item">
-                    <a href="javascript:void(0)">About Us</a><span class="menu-arrow"></span>
-                    <ul class="submenu">
-                        <li><a href="#" class="sub-menu-item">Mission, Vision & Values</a></li>
-                        <li><a href="#" class="sub-menu-item">Power and Duties</a></li>
-                        <li><a href="#" class=" sub-menu-item">Organizational Structure</a></li>
-                        <li><a href="#" class="sub-menu-item">Who Is Who</a></li>
-                        <li><a href="#" class="sub-menu-item">Partners & Stakeholders</a></li>
-
-                        <li class="has-submenu parent-menu-item">
-                            <a href="javascript:void(0)">Sector Institution</a><span class="menu-arrow"></span>
-                            <ul class="submenu">
-                                <li><a href="#" class="sub-menu-item">University</a></li>
-                                <li><a href="#" class="sub-menu-item">Guidelines & Standards</a></li>
-                                <li><a href="#" class=" sub-menu-item">Regional bureau</a></li>
-                                <li><a href="#" class="sub-menu-item">Agencies</a></li>
-                                <li><a href="#" class="sub-menu-item">CTE</a></li>
-                            </ul>
-                        </li>
-
-                        <li><a href="#" class="sub-menu-item">Fact Sheet</a></li>
-                        <li><a href="#" class="sub-menu-item">History</a></li>
-                    </ul>
-                </li>
-
-                <li class="has-submenu parent-parent-menu-item">
-                    <a href="javascript:void(0)">Education Sector</a> <span class="menu-arrow"></span>
-                    <ul class="submenu">
-                        <li class="has-submenu parent-menu-item">
-                            <a href="javascript:void(0)">General Education </a><span class="pl-1 submenu-arrow"></span>
-                            <ul class="submenu">
-                                <li><a href="#" class="sub-menu-item"> Chief Excutive Offices </a></li>
-                                <li><a href="page-services.html" class="sub-menu-item">Desk Excutive Offices </a>
-                                </li>
-                            </ul>
-                        </li>
-
-                        <li class="has-submenu parent-menu-item">
-                            <a href="javascript:void(0)"> Higher Education</a><span class="submenu-arrow"></span>
-                            <ul class="submenu">
-                                <li><a href="#" class="sub-menu-item"> Chief Excutive Offices </a></li>
-                                <li><a href="page-services.html" class="sub-menu-item">Desk Excutive Offices </a>
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
-                </li>
-
-                <li class="has-submenu parent-menu-item">
-                    <a href="javascript:void(0)">Resources</a><span class="menu-arrow"></span>
-                    <ul class="submenu">
-                        <li><a href="#" class="sub-menu-item">Policies & Strategies</a></li>
-                        <li><a href="#" class="sub-menu-item">Guidelines & Standards</a></li>
-                        <li><a href="#" class=" sub-menu-item">Plans & Reports</a></li>
-                        <li><a href="#" class="sub-menu-item">Annual Abstract</a></li>
-                        <li><a href="#" class="sub-menu-item">Digital Library & E-learning</a></li>
-                        <li><a href="#" class=" sub-menu-item">others</a></li>
-                    </ul>
-                </li>
-
-                <li class="has-submenu parent-menu-item">
-                    <a href="javascript:void(0)">Announcement</a><span class="menu-arrow"></span>
-                    <ul class="submenu">
-                        <li><a href="#" class="sub-menu-item">Job Vacancy</a></li>
-                        <li><a href="#" class="sub-menu-item">Tender</a></li>
-                        <li><a href="#" class=" sub-menu-item">Notices</a></li>
-                    </ul>
-                </li>
-
-                <li class="has-submenu parent-menu-item">
-                    <a href="javascript:void(0)">Media</a><span class="menu-arrow"></span>
-                    <ul class="submenu">
-                        <li><a href="#" class="sub-menu-item">News</a></li>
-                        <li><a href="#" class="sub-menu-item">Press Release</a></li>
-                        <li><a href="#" class=" sub-menu-item">Photo Gallery</a></li>
-                        <li><a href="#" class="sub-menu-item">Video</a></li>
-                        <li><a href="#" class=" sub-menu-item">Magazine</a></li>
-                    </ul>
-                </li>
-
-                <li><a href="contact-one.html" class="sub-menu-item">Contact Us</a></li>
-            </ul>
-            <!--end navigation menu-->
-        </div>
-        <!--end navigation-->
-    </div>
-    <!--end container-->
-
-</nav> --}}
