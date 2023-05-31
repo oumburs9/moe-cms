@@ -95,4 +95,42 @@
         </div>
         <x-section.banner />
     </section>
+
+    <section class=" relative py-10 sm:py-16 lg:py-24">
+        <div class="px-4 mx-auto sm:px-6 lg:px-8 container max-w-9xl mb-10">
+            <x-section.title title="Organization structure" />
+
+            <div class="grid max-w-md grid-cols-1 mx-auto mt-12 lg:max-w-full lg:mt-16 lg:grid-cols-2 gap-x-5 gap-y-10">
+                <x-org-chart.sector name="General Education">
+                    <x-org-chart.excutive name="Curriculum development executive">
+                        <x-org-chart.desk deskname="Language and Co-curricular education curriculum desk" />
+                        <x-org-chart.desk />
+                        <x-org-chart.desk />
+                        <x-org-chart.desk />
+                    </x-org-chart.excutive>
+
+                    <x-org-chart.excutive name="Teachers’ and Educational leaders’ development">
+                        <x-org-chart.desk />
+                        <x-org-chart.desk />
+                        <x-org-chart.desk />
+                        <x-org-chart.desk />
+                    </x-org-chart.excutive>
+
+                    <x-org-chart.excutive name="Educational Program and Quality Improvement" direction="right">
+                        <x-org-chart.desk />
+                        <x-org-chart.desk />
+                        <x-org-chart.desk />
+                        <x-org-chart.desk />
+                    </x-org-chart.excutive>
+
+                    <x-org-chart.excutive name="Adult and non formal Education programs" direction="right">
+                        <x-org-chart.desk />
+                        <x-org-chart.desk />
+                        <x-org-chart.desk />
+                        <x-org-chart.desk />
+                    </x-org-chart.excutive>
+                </x-org-chart.sector>
+            </div>
+        </div>
+    </section>
 </x-guest-layout>
