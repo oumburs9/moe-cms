@@ -98,10 +98,16 @@
 
     <section class=" relative py-10 sm:py-16 lg:py-24">
         <div class="px-4 mx-auto sm:px-6 lg:px-8 container max-w-9xl mb-10">
-            <x-section.title title="Organization structure" />
+            <x-section.title title="Organization structure"
+                subtitle="This is The Main Education Sector Development Organization Structure Chart" />
 
-            <div class="grid max-w-md grid-cols-1 mx-auto mt-12 lg:max-w-full lg:mt-16 lg:grid-cols-2 gap-x-5 gap-y-10">
-                <x-org-chart.sector name="General Education">
+            <div class="mx-auto mt-16 w-full border-2 border-yellow border-b-0 relative h-28 max-w-lg translate-y-14">
+                <x-logo h="10rem" class="absolute inset-0 z-20 bottom-full hover:scale-110 transition cursor-pointer">
+                </x-logo>
+            </div>
+
+            <div class="grid max-w-md grid-cols-1 mx-auto mt-12 lg:max-w-full lg:grid-cols-2 gap-x-5 gap-y-10">
+                <x-org-chart.sector name="General Education Development">
                     <x-org-chart.excutive name="Curriculum development executive">
                         <x-org-chart.desk deskname="Language and Co-curricular education curriculum desk" />
                         <x-org-chart.desk />
@@ -124,6 +130,36 @@
                     </x-org-chart.excutive>
 
                     <x-org-chart.excutive name="Adult and non formal Education programs" direction="right">
+                        <x-org-chart.desk />
+                        <x-org-chart.desk />
+                        <x-org-chart.desk />
+                        <x-org-chart.desk />
+                    </x-org-chart.excutive>
+                </x-org-chart.sector>
+
+                <x-org-chart.sector name="Higher Education Development" color="blue">
+                    <x-org-chart.excutive name="Academic Affairs Executive" color="blue">
+                        <x-org-chart.desk />
+                        <x-org-chart.desk />
+                        <x-org-chart.desk />
+                        <x-org-chart.desk />
+                    </x-org-chart.excutive>
+
+                    <x-org-chart.excutive name="Research and Community Engagement Executive" color="blue">
+                        <x-org-chart.desk />
+                        <x-org-chart.desk />
+                        <x-org-chart.desk />
+                        <x-org-chart.desk />
+                    </x-org-chart.excutive>
+
+                    <x-org-chart.excutive name="Governance and Infrastructure executive" direction="right" color="blue">
+                        <x-org-chart.desk />
+                        <x-org-chart.desk />
+                        <x-org-chart.desk />
+                        <x-org-chart.desk />
+                    </x-org-chart.excutive>
+
+                    <x-org-chart.excutive name="ICT and Digital Education executive" direction="right" color="blue">
                         <x-org-chart.desk />
                         <x-org-chart.desk />
                         <x-org-chart.desk />
