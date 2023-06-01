@@ -1,5 +1,5 @@
 @props(['title'=>'', 'h'=>'5rem'])
-<div class="flex items-center w-full md:w-auto">
+<div {{ $attributes->merge([ 'class' => 'flex items-center w-full md:w-auto justify-center']) }}>
     <svg id="logo" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
         viewBox="0 0 194.38 194.38" class="w-auto  bg-[#fff] rounded-full transition-transform scale-100"
         style="height: {{ $h }}">
