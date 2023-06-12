@@ -3,13 +3,13 @@
     "file": "assets/NunitoSans-ExtraLight.9fa4e799.woff",
     "src": "resources/fonts/NunitoSans-ExtraLight.woff"
   },
+  "resources/fonts/NunitoSans-Light.woff": {
+    "file": "assets/NunitoSans-Light.c4c897fd.woff",
+    "src": "resources/fonts/NunitoSans-Light.woff"
+  },
   "resources/fonts/NunitoSans-Regular.woff": {
     "file": "assets/NunitoSans-Regular.ef3c0cf1.woff",
     "src": "resources/fonts/NunitoSans-Regular.woff"
-  },
-  "resources/fonts/NunitoSans-SemiBold.woff": {
-    "file": "assets/NunitoSans-SemiBold.de948482.woff",
-    "src": "resources/fonts/NunitoSans-SemiBold.woff"
   },
   "resources/fonts/NunitoSans-Bold.woff": {
     "file": "assets/NunitoSans-Bold.fbbf7df9.woff",
@@ -19,21 +19,21 @@
     "file": "assets/NunitoSans-ExtraBold.36778b83.woff",
     "src": "resources/fonts/NunitoSans-ExtraBold.woff"
   },
+  "resources/fonts/NunitoSans-SemiBold.woff": {
+    "file": "assets/NunitoSans-SemiBold.de948482.woff",
+    "src": "resources/fonts/NunitoSans-SemiBold.woff"
+  },
   "resources/fonts/NunitoSans-Black.ttf": {
     "file": "assets/NunitoSans-Black.df2359fd.ttf",
     "src": "resources/fonts/NunitoSans-Black.ttf"
   },
-  "resources/fonts/NunitoSans-Light.woff": {
-    "file": "assets/NunitoSans-Light.c4c897fd.woff",
-    "src": "resources/fonts/NunitoSans-Light.woff"
-  },
   "resources/js/app.js": {
-    "file": "assets/app.76ec6e4f.js",
+    "file": "assets/app.66a8d20a.js",
     "src": "resources/js/app.js",
     "isEntry": true
   },
   "resources/css/app.css": {
-    "file": "assets/app.b6d44f5b.css",
+    "file": "assets/app.422e5cae.css",
     "src": "resources/css/app.css",
     "isEntry": true
   }

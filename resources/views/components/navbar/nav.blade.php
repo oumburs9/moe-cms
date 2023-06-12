@@ -1,7 +1,7 @@
 <!-- Start Navbar -->
 
 <nav id="navbar"
-    class="bg-white border-b border-light/40 dark:bg-gray-900 fixed w-full z-40 top-0 left-0 transition-all delay-500">
+    class="bg-white border-b border-mlight/40 dark:bg-gray-900 fixed w-full z-40 top-0 left-0 transition-all delay-500">
     <div class="container flex flex-wrap via-white items-center justify-between mx-auto px-4">
         <x-navbar.logo />
         <button data-collapse-toggle="navbar-multi-level" type="button"
@@ -19,48 +19,78 @@
         <x-navbar.menu>
             <x-navbar.menu-link name="Home" link="/" active="{{ request()->routeIs('home') }}" />
 
-            <x-navbar.dropdown name="About Us" id="About">
-                <x-navbar.menu-link name="Mission, Vision & Values" link="#"
-                    active="{{ request()->routeIs('home') }}" />
-                <x-navbar.menu-link name="Power and Duties" />
-                <x-navbar.menu-link name="Organizational Structure" />
-                <x-navbar.menu-link name="Who Is Who" />
-                <x-navbar.menu-link name="Partners & Stakeholders" />
-                <x-navbar.dropdown name="Sector Institution" icon="right" id="submenu" placement="right-start">
-                    <x-navbar.menu-link name="University" />
-                    <x-navbar.menu-link name="Regional Bureau" />
-                    <x-navbar.menu-link name="Agencies" />
-                    <x-navbar.menu-link name="CTE" />
+            <x-navbar.dropdown name="About Us" id="About"
+                active="{{ request()->routeIs(['fact-sheet', 'mvav', 'power-duties', 'who-is-who', 'partners', 'universties', 'bureaus', 'agencies', 'ctes', 'fact-sheet', 'history', 'org-chart', 'sector-institutions' ]) }}">
+                <x-navbar.menu-link name="Mission, Vision & Values" link="{{ route('mvav') }}"
+                    active="{{ request()->routeIs('mvav') }}" />
+                <x-navbar.menu-link name="Power and Duties" link="{{ route('power-duties') }}"
+                    active="{{ request()->routeIs('power-duties') }}" />
+                <x-navbar.menu-link name="Organizational Structure" link="{{ route('org-chart') }}"
+                    active="{{ request()->routeIs('org-chart') }}" />
+                <x-navbar.menu-link name="Who Is Who" link="{{ route('who-is-who') }}"
+                    active="{{ request()->routeIs('who-is-who') }}" />
+                <x-navbar.menu-link name="Partners & Stakeholders" link="{{ route('partners') }}"
+                    active="{{ request()->routeIs('partners') }}" />
+
+                <x-navbar.dropdown name="Sector Institution" icon="right" id="submenu" placement="right-start"
+                    active="{{ request()->routeIs(['universties','bureaus','agencies','ctes','sector-institutions']) }}">
+                    <x-navbar.menu-link name="University" link="{{ route('universties') }}"
+                        active="{{ request()->routeIs('universties') }}" />
+                    <x-navbar.menu-link name="Regional Bureau" link="{{ route('bureaus') }}"
+                        active="{{ request()->routeIs('bureaus') }}" />
+                    <x-navbar.menu-link name="Agencies" link="{{ route('agencies') }}"
+                        active="{{ request()->routeIs('agencies') }}" />
+                    <x-navbar.menu-link name="CTE" link="{{ route('ctes') }}"
+                        active="{{ request()->routeIs('ctes') }}" />
                 </x-navbar.dropdown>
-                <x-navbar.menu-link name="Fact Sheet" />
-                <x-navbar.menu-link name="History" />
+                <x-navbar.menu-link name="Fact Sheet" link="{{ route('fact-sheet') }}"
+                    active="{{ request()->routeIs('fact-sheet') }}" />
+                <x-navbar.menu-link name="History" link="{{ route('history') }}"
+                    active="{{ request()->routeIs('history') }}" />
             </x-navbar.dropdown>
 
-            <x-navbar.dropdown name="Education Sector" id="sector">
-                <x-navbar.menu-link name="General Education" />
-                <x-navbar.menu-link name="Higher Education" />
+            <x-navbar.dropdown name="Education Sector" id="sector"
+                active="{{ request()->routeIs(['general-education', 'higher-education', 'education-sector']) }}">
+                <x-navbar.menu-link name="General Education" link="{{ route('general-education') }}"
+                    active="{{ request()->routeIs('general-education') }}" />
+                <x-navbar.menu-link name="Higher Education" link="{{ route('higher-education') }}"
+                    active="{{ request()->routeIs('higher-education') }}" />
             </x-navbar.dropdown>
 
-            <x-navbar.dropdown name="Resources" id="resource">
-                <x-navbar.menu-link name="Policies & Strategies" />
-                <x-navbar.menu-link name="Guidelines & Standards" />
-                <x-navbar.menu-link name="Plans & Reports" />
-                <x-navbar.menu-link name="Annual Abstract" />
-                <x-navbar.menu-link name="Digital Library & E-learning" />
+            <x-navbar.dropdown name="Resources" id="resource"
+                active="{{ request()->routeIs(['policies','guidelines','plans','abstract','digital-library']) }}">
+                <x-navbar.menu-link name=" Policies & Strategies" link="{{ route('policies') }}"
+                    active="{{ request()->routeIs('policies') }}" />
+                <x-navbar.menu-link name="Guidelines & Standards" link="{{ route('guidelines') }}"
+                    active="{{ request()->routeIs('guidelines') }}" />
+                <x-navbar.menu-link name="Plans & Reports" link="{{ route('plans') }}"
+                    active="{{ request()->routeIs('plans') }}" />
+                <x-navbar.menu-link name="Annual Abstract" link="{{ route('abstract') }}"
+                    active="{{ request()->routeIs('abstract') }}" />
+                <x-navbar.menu-link name="Digital Library & E-learning" link="{{ route('digital-library') }}"
+                    active="{{ request()->routeIs('digital-library') }}" />
                 <x-navbar.menu-link name="Others" />
             </x-navbar.dropdown>
 
-            <x-navbar.dropdown name="Announcement" id="Announcement">
-                <x-navbar.menu-link name="Job Vacancy" />
-                <x-navbar.menu-link name="Tender" />
-                <x-navbar.menu-link name="Notices" />
+            <x-navbar.dropdown name="Announcement" id="Announcement"
+                active="{{ request()->routeIs(['vacancy', 'tender', 'notices']) }}">
+                <x-navbar.menu-link name="Job Vacancy" link="{{ route('vacancy') }}"
+                    active="{{ request()->routeIs('vacancy') }}" />
+                <x-navbar.menu-link name="Tender" link="{{ route('tender') }}"
+                    active="{{ request()->routeIs('tender') }}" />
+                <x-navbar.menu-link name="Notices" link="{{ route('notices') }}"
+                    active="{{ request()->routeIs('notices') }}" />
             </x-navbar.dropdown>
 
-            <x-navbar.dropdown name="Media" id="Media">
-                <x-navbar.menu-link name="News" />
-                <x-navbar.menu-link name="Press Release" />
-                <x-navbar.menu-link name="Magazine" />
-                <x-navbar.menu-link name="Gallery" />
+            <x-navbar.dropdown name="Media" id="Media"
+                active="{{ request()->routeIs(['news','press-release','magazine','gallery']) }}">
+                <x-navbar.menu-link name="News" link="{{ route('news') }}" active="{{ request()->routeIs('news') }}" />
+                <x-navbar.menu-link name="Press Release" link="{{ route('press-release') }}"
+                    active="{{ request()->routeIs('press-release') }}" />
+                <x-navbar.menu-link name="Magazine" link="{{ route('magazine') }}"
+                    active="{{ request()->routeIs('magazine') }}" />
+                <x-navbar.menu-link name="Gallery" link="{{ route('gallery') }}"
+                    active="{{ request()->routeIs('gallery') }}" />
             </x-navbar.dropdown>
 
             <x-navbar.lang-menu />

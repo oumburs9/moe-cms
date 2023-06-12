@@ -22,21 +22,21 @@ return $views;
         <img class="object-cover w-full h-full group-hover:scale-110 transition-transform delay-100 "
             src="https://picsum.photos/800/530?random={{ $image }}" alt="" />
         <span
-            class=" absolute bottom-3 top-auto left-3 inline-flex items-center px-4 py-2 text-xs font-semibold tracking-widest uppercase rounded-xl text-[#fff] bg-{{ $faker->randomElement(['sky', 'blue', 'red', 'yellow']) }}">
+            class=" absolute bottom-3 top-auto left-3 inline-flex items-center px-4 py-2 text-xs font-semibold tracking-widest uppercase rounded-xl text-[#fff] bg-{{ $faker->randomElement(['msky', 'mblue', 'mred', 'myellow']) }}">
             {{ $faker->word($nbWords = 1, $variableNbWords = false) }}
         </span>
     </a>
 
     <p class="mt-6 text-xl font-semibold">
-        <a href="#" title="" class="text-dark transition-colors group-hover:text-blue">
+        <a href="#" title="" class="text-dark transition-colors group-hover:text-mblue">
             {{ $title ??  "How to mange your remote team? "}}
         </a>
     </p>
 
-    <p class="mt-4 text-gray line-clamp-2">
+    <p class="mt-4 text-mgray line-clamp-2">
         {{ $body ?? $paragraph }}
     </p>
-    <div class="h-0 mt-6 mb-4 border-t-2 border-light/40 border-dashed"></div>
+    <div class="h-0 mt-6 mb-4 border-t-2 border-mlight/40 border-dashed"></div>
 
     <div class="flex justify-between text-gray-500 ">
         <span class="block text-sm font-bold tracking-widest uppercase">
