@@ -1,8 +1,8 @@
 <a href="#" class="ml-10 text-center focus:outline-none">
-    <div class="hover:animate-none w-36 rounded-full shadow-2xl shadow-blue/40 bg-[#fff]">
+    <div class="hover:animate-none w-36 rounded-full shadow-2xl shadow-mblue/40 bg-[#fff]">
         <svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg"
             xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 194.38 194.38"
-            class="w-36 rounded-full shadow-2xl shadow-blue/50 bg-[#fff]">
+            class="w-36 rounded-full shadow-2xl shadow-mblue/50 bg-[#fff]">
             <defs>
                 <style>
                     .cls-1 {

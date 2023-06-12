@@ -1,6 +1,6 @@
 <!-- Footer Start -->
 <footer
-    class="relative  footer bg-gradient-to-br from-white via-white to-blue/40 text-gray-500 dark:text-gray-200 px-4">
+    class="relative footer bg-gradient-to-br from-mwhite via-white to-mblue/40 text-gray-500 dark:text-gray-200 px-4">
     <div class="container mx-auto">
         <div class="grid grid-cols-12">
             <div class="col-span-12">
@@ -9,10 +9,10 @@
                         <div class="lg:col-span-3 md:col-span-12">
                             <div class=" relative flex flex-col h-40 justify-center">
                                 <div class=" absolute inset-0 w-40 flex items-end rotate-90">
-                                    <div class="bg-yellow h-3.5 w-3/12 rounded-l-full"></div>
-                                    <div class="bg-red h-3.5 w-4/12"></div>
-                                    <div class="bg-sky h-3.5 w-2/12"></div>
-                                    <div class="bg-blue h-3.5 w-3/12 rounded-r-full"></div>
+                                    <div class="bg-myellow h-3.5 w-3/12 rounded-l-full"></div>
+                                    <div class="bg-mred h-3.5 w-4/12"></div>
+                                    <div class="bg-msky h-3.5 w-2/12"></div>
+                                    <div class="bg-mblue h-3.5 w-3/12 rounded-r-full"></div>
                                 </div>
                                 <x-footer.logo />
                             </div>
@@ -66,7 +66,7 @@
                             @guest
                             <a href="/contact-us" class="grid grid-cols-1 mt-5">
                                 <button type="button" id="submitsubscribe" name="send"
-                                    class="py-3 btn bg-blue hover:bg-blue border-blue hover:border-blue text-white rounded-xl shadow-lg hover:shadow-blue">
+                                    class="py-3 btn bg-mblue hover:bg-mblue border-mblue hover:border-mblue text-white rounded-xl shadow-lg hover:shadow-mblue">
                                     Contact Us
                                 </button>
                             </a>
@@ -75,7 +75,7 @@
                             @auth
                             <a href="/register" class="grid grid-cols-1 mt-5">
                                 <button type="button" id="submitsubscribe" name="send"
-                                    class="py-3 btn bg-red hover:bg-red border-red hover:border-red text-white rounded-xl shadow-lg hover:shadow-red">
+                                    class="py-3 btn bg-mred hover:bg-mred border-mred hover:border-mred text-white rounded-xl shadow-lg hover:shadow-mred">
                                     Dashborad
                                 </button>
                             </a>
@@ -91,7 +91,7 @@
         <!--end grid-->
     </div>
     <!--end container-->
-    <div class="px-0 backdrop:blur-lg border-t border-light/40">
+    <div class="px-0 backdrop:blur-lg border-t border-mlight/40">
         <div class="py-[10px] container mx-auto">
             <p class="text-sm flex mb-0 w-full justify-center lg:justify-end items-center">
                 © {{ now()->year }} FDRE Ministry of Education
