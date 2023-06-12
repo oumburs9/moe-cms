@@ -9,6 +9,7 @@ module.exports = {
         "./vendor/laravel/jetstream/**/*.blade.php",
         "./storage/framework/views/*.php",
         "./resources/views/**/*.blade.php",
+        "./node_modules/flowbite/**/*.js",
     ],
 
     theme: {
@@ -16,19 +17,14 @@ module.exports = {
             // MoE Branding Colors
             transparent: "transparent",
             current: "currentColor",
-            gray: "#4D4D4D",
-            red: "#D1503E",
-            blue: "#2048A1",
-            sky: "#3C8FC3",
-            yellow: "#F8BE13",
-            dark: "#191919",
-            light: "#CCCCCC",
-            white: "#F2F2F2",
-            green: colors.green,
-            lime: colors.blue,
-            zinc: colors.zinc,
-            indigo: colors.indigo,
-            pink: colors.pink,
+            mgray: "#4D4D4D",
+            mred: "#D1503E",
+            mblue: "#2048A1",
+            msky: "#3C8FC3",
+            myellow: "#F8BE13",
+            mdark: "#191919",
+            mlight: "#CCCCCC",
+            mwhite: "#F2F2F2",
         },
 
         // boxShadow: {
@@ -48,5 +44,6 @@ module.exports = {
     plugins: [
         require("@tailwindcss/forms"),
         require("@tailwindcss/typography"),
+        require("flowbite/plugin"),
     ],
 };

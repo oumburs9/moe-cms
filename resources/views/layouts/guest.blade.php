@@ -9,8 +9,6 @@
         <title>{{ config('app.name', 'Ministry Of Education Ethiopia') }}</title>
         <link href="/css/uicons.css" rel="stylesheet">
         <!-- Scripts -->
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.css" rel="stylesheet" />
-
         @vite(['resources/css/app.css', 'resources/js/app.js'])
     </head>
 
@@ -25,7 +23,6 @@
 
         <!-- JAVASCRIPTS -->
         @stack('modals')
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.js"></script>
         @livewireScripts
     </body>
 
