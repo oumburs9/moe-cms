@@ -174,7 +174,7 @@
                 </g>
             </g>
         </svg>
-        <div class="-mr-2 flex-0 items-center text-gray">
+        <div class="-mr-2 flex-0 items-center text-mgray">
             <span class="text-[10px] tracking-wide flex pl-3 -mb-3">
                 FDRE
             </span>
