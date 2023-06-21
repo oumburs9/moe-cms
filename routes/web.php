@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () { return view('welcome');})->name('home');
 
-// about us
+// About Us
 Route::get('/mission-vision-and-values', function () { return view('guest.mission-vision');})->name('mvav');
 Route::get('/organizational-structure', function () { return view('guest.organizational-structure');})->name('org-chart');
 Route::get('/partners-and-stakeholders', function () { return view('guest.partners-and-stakeholders');})->name('partners');
@@ -23,7 +23,7 @@ Route::get('/power-and-duties', function () { return view('guest.power-and-dutie
 Route::get('/who-is-who', function () { return view('guest.who-is-who');})->name('who-is-who');
 Route::get('/fact-sheets', function () { return view('guest.fact-sheets');})->name('fact-sheet');
 Route::get('/history', function () { return view('guest.history');})->name('history');
-// about us -> sector institutions
+// About Us -> sector institutions
 Route::get('/sector-institutions', function () { return view('guest.sector-institutions');})->name('sector-institutions');
 Route::get('/sector-institutions-agencies', function () { return view('guest.agencies');})->name('agencies');
 Route::get('/sector-institutions-ctes', function () { return view('guest.ctes');})->name('ctes');
@@ -53,6 +53,9 @@ Route::get('/media-news', function () { return view('guest.news');})->name('news
 Route::get('/media-press-release', function () { return view('guest.press-release');})->name('press-release');
 Route::get('/media-magazine', function () { return view('guest.magazine');})->name('magazine');
 Route::get('/media-gallery', function () { return view('guest.gallery');})->name('gallery');
+
+// Contact Us
+Route::get('/contact-us', function () { return view('guest.contact-us');})->name('contact-us');
 
 // Admin Pages
 Route::middleware(['auth:sanctum',config('jetstream.auth_session'),  'verified'])->group(function () {
