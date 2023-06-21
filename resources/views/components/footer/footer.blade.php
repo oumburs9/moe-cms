@@ -29,13 +29,13 @@
                         <div class="lg:col-span-3 md:col-span-4 mt-5">
                             <h5 class="tracking-[1px] text-gray-600 font-semibold ml-1">Menu</h5>
                             <ul class="list-none footer-list mt-6">
-                                <x-footer.link name="Home" />
-                                <x-footer.link name="Mission, Vision & Values" />
-                                <x-footer.link name="Organizational Structure" />
-                                <x-footer.link name="Power and Duties" />
-                                <x-footer.link name="Who Is Who" />
-                                <x-footer.link name="Partners & Stakeholders" />
-                                <x-footer.link name="History" />
+                                <x-footer.link link="{{ route('home') }}" name="Home" />
+                                <x-footer.link link="{{ route('mvav') }}" name="Mission, Vision & Values" />
+                                <x-footer.link link="{{ route('org-chart') }}" name="Organizational Structure" />
+                                <x-footer.link link="{{ route('power-duties') }}" name="Power and Duties" />
+                                <x-footer.link link="{{ route('who-is-who') }}" name="Who Is Who" />
+                                <x-footer.link link="{{ route('partners') }}" name="Partners & Stakeholders" />
+                                <x-footer.link link="{{ route('history') }}" name="History" />
                             </ul>
                         </div>
                         <!--end col-->
@@ -43,13 +43,14 @@
                         <div class="lg:col-span-3 md:col-span-4 mt-5">
                             <h5 class="tracking-[1px] text-gray-600 font-semibold">Usefull Links</h5>
                             <ul class="list-none footer-list mt-6">
-                                <x-footer.link name="Policies & Strategies" />
-                                <x-footer.link name="Guidelines & Standards" />
-                                <x-footer.link name="Plans & Reports" />
-                                <x-footer.link name="Annual Abstract" />
-                                <x-footer.link name="Digital Library & E-learning" />
-                                <x-footer.link name="Notices" />
-                                <x-footer.link name="News" />
+                                <x-footer.link name="Policies & Strategies" link="{{ route('policies') }}" />
+                                <x-footer.link name="Guidelines & Standards" link="{{ route('guidelines') }}" />
+                                <x-footer.link name="Plans & Reports" link="{{ route('plans') }}" />
+                                <x-footer.link name="Annual Abstract" link="{{ route('abstract') }}" />
+                                <x-footer.link name="Digital Library & E-learning"
+                                    link="{{ route('digital-library') }}" />
+                                <x-footer.link name="Notices" link="{{ route('notices') }}" />
+                                <x-footer.link name="News" link="{{ route('news') }}" />
                             </ul>
                         </div>
                         <!--end col-->
