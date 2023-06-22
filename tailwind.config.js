@@ -34,8 +34,8 @@ module.exports = {
         // },
 
         fontFamily: {
-            gotham: "'Gotham', 'sans serif'",
-            noto: "'Noto', 'sans serif'",
+            en: "'english', 'sans serif'",
+            am: "'amharic', 'sans serif'",
         },
 
         extend: {},

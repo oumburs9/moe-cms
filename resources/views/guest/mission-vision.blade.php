@@ -4,249 +4,58 @@
         <x-page.nav link="#" name="Mission Vision and Values" current />
     </x-page.banner>
 
-    <div class="container mx-auto">
-        <div class=" grid grid-cols-6">
+    <div class="container mx-auto font-am">
+        <div class=" grid grid-cols-8 md:grid-cols-12 my-10 gap-10 ">
             <div
-                class=" col-span-4 px-4 my-10 prose max-w-4xl  prose-indigo prose-headings:text-mblue prose-p:text-gray-500 prose-img:rounded-xl w-full font-noto">
+                class=" col-span-8 px-4  prose max-w-4xl  prose-mblue prose-headings:text-mblue prose-p:text-gray-500 prose-img:rounded-xl w-full font-noto prose-strong:text-gray-700 prose-p:-mt-5">
                 <div>
-                    <img src="https://moe.gov.et/storage/news/333587917_1158941468123913_6021443852551221056_n_1678947552.jpg"
-                        alt="" width="100%" class="mb-0 p-0">
-                    <p style="text-align:justify;">
-                        እነዚህ 273 ተማሪዎች የካቲት 21/2015 ዓም በሀገር አቀፍ ደረጃ የኢፌዲሪ ጠቅላይ ሚኒስትር ዶ/ር ዓብይ አህመድ፣ የትምህርት ሚኒስትሩ ፕሮፌሰር
-                        ብርሃኑ
-                        ነጋና
-                        የአጠቃላይ ትምህርት ዘርፍ ሚኒስትር ዴኤታ ዶ/ር ፋንታ ማንደፍሮ እጅ የእዉቅናና ሽልማት ተቀብለዋል፡፡
+                    <h1>ራዕይ</h1>
+                    <p>ለሀገራቸው ብልፅግና የሚተጉ በሁለንተናዊ ስብእናቸው ብቁ የሆኑ ዜጎችን በ2022 ፈርቶ ማየት</p>
+                    <h2>ተልዕኮ</h2>
+                    <p>ፍትሀዊ፤ አካታች እና ተደራሽ የሆነ ጥራቱና አግባብነቱ የተረጋገጠ በመልካም አስተዳደር ላይ የተገነባ የህይወት ዘመን ትምህርትና ስልጠና አካል የሆነ
+                        በቴክኖሎጂ
+                        የተደገፈ ትምህርት ከቅድመ አንደኛ እስከ ሁለተኛ ደረጃ ድረስ ለዜጎች ማቅረብ</p>
+                    <h2> እሴቶች</h2>
+                    <p>የትምህርት እና ስልጠና ስርዓቱ ቁልፍ እሴቶች ፡-</p>
+                    <p>
+                        <strong>መልካም አስተዳደር፤</strong> በተጠያቂነትና በጋራ ሀላፊነት፣ እና በሌሎች የጥራት እና ምርታማነት መመዘኛዎች ማሳካት። ፍትሀዊነት፤
+                        ለትምህርት እና
+                        ለስልጠና የሚውሉ
+                        ሀብቶችን ፍትሀዊ በሆነ መልኩ ማዳረስ፣ እና
                     </p>
-                    <p style="text-align:justify;">
-                        በዚሁ እለት በክቡር ጠቅላይ ሚኒስትር ዓብይ አህመድ ለእነዚህ ተማሪዎች በተባበሩት አረብ ኤምሬትስ የትምህርት እድል/ Scholarship / እንደተገኘ
-                        ተገልጸል፡፡
-                    </p>
-                    <p style="text-align:justify;">
-                        በ2014 ዓም. የተጀመረዉ የፈተና ስርዓት ለዉጥ እንዲጠናከርና መንግስት ለትምህርት ዘርፉ የሰጠዉን ልዩ ትኩረት ለማሳየት ጠቅላይ ሚኒስትሩ ባደረጉት
-                        ጥረት
-                        ከወዳጅ
-                        አገራት የተገኘዉ ይህ የትምህርት እድል ተማሪዎች ከመስከረም/2016 ዓም ጀምሮ እንዲማሩ ተመቻችቷል፡፡
-                    </p>
-                    <p style="text-align:justify;">
-                        ወደዉጪ እስኪሄዱ ድረስ ያሉትን ግዜያት የእንግሊዝኛ ቋንቋ ማሻሻያ ትምህርት በመማርና ሌሎች ለወደፊታቸዉ የሚያግዙ ቅድመ-ዝግጅቶችን እያደረጉ እንድቆዩ
-                        የሚሰራ
-                        ይሆናል፡፡
-                    </p>
-                    <p style="text-align:justify;">
-                        እዚህ ላይ መታወቅ ያለበት አንድ ጉዳይ እነዚህ ተማሪዎች የተፈጠረላቸዉ እድል በቀጣይ እየተፈጠረ ላለዉ በዉድድር ላይ የተመሰረተ ዓለም እኛንም በዓለም
-                        አቀፍ
-                        ደረጃ
-                        ተወዳዳሪ የሚያደርጉ ምሩቃንንና ሳይንትስቶችን ፣ ቴክኖሎጂስቶችን፣ መሪዎችን የመፍጠሪያ ልዩ እድል ነው፡፡
-                    </p>
-                    <p style="text-align:justify;">
-                        በተጨማሪም ተማሪዎቻችን በሄዱበት የሀገር ስምና ገጽታ ናቸዉ ፡፡ በአቅማቸዉ ተወዳድረዉ በዓለም ደረጃ ስመጥር በሆኑ ዩኒቨርስቲዎች አሸንፈዉ ጥሩ ሆነዉ
-                        ተመርቀዉ
-                        በተሻለ ዉጤት ሲመጡ ኢትዮጵያ ዉስጥ ትምህርት ምን እንደሚመስል ሌላዉም ዓለም ይገነዘባል፡፡ ወደሀገራቸዉ ተመልሰዉ ሲያገለግሉም በፍጥነት ከድህነት
-                        ለመዉጣትና
-                        ወደብልጽግና ለመሄድ ለምናደርገዉ ስራ አጋዥ ይሆናል የሚል ፅኑ እምነት አለ፡፡
-                    </p>
-                    <p style="text-align:justify;">
-                        የተፈጠረዉ የትምህርት ዕድል በጣም ጥሩ እድል ነዉ፡፡ ነገር ግን ዕድሉ ለተፈጠረላቸዉ ተማሪዎች እንደግዴታ የሚወሰድ አይደለም፡፡ በጣም ትልቅ እድል፣
-                        ከፍተኛ
-                        ጥረት
-                        ተደርጎበት በክቡር በጠቅላይ ሚኒስትር ዶ/ር አብይ አህመድ የተገኘ እድል ነዉ፡፡ በመሆኑም የአንድም ተማሪ እድል ሳይባክን መጠቀም ለሀገር ይጠቅማል፡፡
-                        ይህንን
-                        በማድረግ ሂደት ዉስጥ ደግሞ ሁሉም የበኩሉን እንዲወጣ ማድረግ ያስፈልጋል፡፡
-                    </p>
-                    <p style="text-align:justify;">
-                        ይሁን እንጅ ተማሪዎች መማር የምፈልገዉ በሀገር ዉስጥ ባሉ ዩኒቨርስቲዎች ነዉ ብለዉ ካሰቡ የሚገደዱበት ሁኔታ የለም፡፡
-                    </p>
-                    <p style="text-align:justify;">
-                        እነዚህ ተማሪዎች በተባበሩት ኤሜሬትስ በየትኞቹ ዩኒቨርስቲዎች ሊማሩ ይችላሉ?
-                    </p>
-                    <p style="text-align:justify;">
-                        በተባበሩት አረብ ኤምሬትስ በአለም አቀፍ ደረጃ ስመጥር የሆኑ ብዙ ዩኒቨርስቲዎች ያሉ ሲሆን ስድስት ዩኒቨርስቲዎች QS World University
-                        Rankings®
-                        2021 (<a
-                            href="https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.topuniversities.com%2Funiversity-rankings%2Fworld-university-rankings%2F2021%3Ffbclid%3DIwAR3kXg6Zn9QpzTTSO2CaEHLnqkmUInT0T6-3J5H2_cV3ktKmzd0blj86abY&amp;h=AT1_ooH6F1Jve3rcSBizWYIxkQsONZlkqj2AzI9CzXtQeYSC4V-o1enh8a5QczYoSZtCR77iNXlwgTwIc_KL14akw6wtSGbHhSAYJrdnSlwzsvlFp4qa6cUo-G545u35TkGj&amp;__tn__=-UK-R&amp;c[0]=AT3ZmPYwKBqm-uCEHuigBi9m2oBFFQeJYTjt83XJsKrGtsdtgx5ZXxKKUREkostRGi7oCMo5zeYDyl6GfdehsffCkrtCF9Ag7HJ42dkYznSXp2yQd99FsyfluH229dWomDOBuiW_MMVY4QBm1pjd6DJo0Sn0u5EaiJOjK9ME-M-vK9pTwpmtMkq45lQwpwUcLeg_RoJw8sfaicSbvuBCTodfwDwIxEGbN_LucOJ9MPgJKaAv767I">https://www.topuniversities.com/.../world-university.../2021</a>),
-                        የተካተቱ ሲሆን ስምንት ዩኒቨርስቲዎች ደግሞ በ 2023 QS Arab Region University Rankings (<a
-                            href="https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.topuniversities.com%2F%3Ffbclid%3DIwAR3kG84LtFohsh1SUTqbyIh7oAlXzZ9Yao2n_qqE4K1KFBdNL3IizosNbOc&amp;h=AT2ZpNG0HfQS1SLpoEBgF8a9u2NlmU8O2NrqeWCDPNxRKuggxA-KK09WprTzZCSuESCrNzyNz1f1uQWN3qEc260xiv8VgsL9g94pdFClonGE3pZ2bG1wVK07SR5rpCAJYi8V&amp;__tn__=-UK-R&amp;c[0]=AT3ZmPYwKBqm-uCEHuigBi9m2oBFFQeJYTjt83XJsKrGtsdtgx5ZXxKKUREkostRGi7oCMo5zeYDyl6GfdehsffCkrtCF9Ag7HJ42dkYznSXp2yQd99FsyfluH229dWomDOBuiW_MMVY4QBm1pjd6DJo0Sn0u5EaiJOjK9ME-M-vK9pTwpmtMkq45lQwpwUcLeg_RoJw8sfaicSbvuBCTodfwDwIxEGbN_LucOJ9MPgJKaAv767I">https://www.topuniversities.com/</a>
-                        arab-region-rankings) . ተካተዋል፡፡
-                    </p>
-                    <p style="text-align:justify;">
-                        በአረብ ኤምሬትስ ካሉ ዩኒቭርስቲዎች ትልቁ የተባበሩት አረብ ኤምሬተስ ከፍተኛ የቴክኖሎጂ ኮሌጅ ሲሆን በሀገሪቱ በአጠቃላይ 17 ካምፓሶች አሉት።
-                    </p>
-                    <h3 style="text-align:justify;" id="ea86cca201ca356dc0c6eecfacf6372c1">
-                        <strong>የተባበሩት አርብ ኤምሬትስ ዩኒቨርስቲ</strong>
-                    </h3>
-                    <p style="text-align:justify;">
-                        የተባበሩት አርብ ኤምሬትስ ዩኒቨርስቲ በአለም አቀፍ ደረጃ 284ኛ ላይ ሲገኝ በአረብ ወሰጥ ካሉ ዩኒቨርስቲዎች ዉሰጥ ደግሞ አምሰተኛ ደረጃ ላይ ይገኛል።
-                        መቀመጫውንም
-                        አል አይን በተባለችው የአቡ ዳቢ ከተማ ሲሆን ካሉት ዩኒቨርስቲዎችም በእድሜ ትንሹ ነው።
-                    </p>
-                    <h3 style="text-align:justify;" id="e556a413c520cdbb4f9d74874287492d4">
-                        <strong>አሜሪካን ዩኒቨርስቲ ኦፍ ሻርጃ</strong>
-                    </h3>
-
-                    <p style="text-align:justify;">
-                        አሜሪካን ዩኒቨርስቲ ኦፍ ሻርጃ በተባበሩት አረብ ኤምሬትስ ዉስጥ ካሉ ዩኒቨርስቲዎች በሰባተኛነት የተቀመጠ ሲሆን የሚሰጣቸው የትምህርት አይነቶችም
-                        በአሜሪካ
-                        የከፍተኛ
-                        ትምህርት ሞዴል መሰረት ነው። በአለም አቀፍ ተማሪዎችም ተመራጭ የሆነ ዩኒቨርስቲ ነው።
-                    </p>
-                    <h3 style="text-align:justify;" id="e71ee98ae70b1cb17b07946612b0e1563">
-                        <strong>ካሊፋ ዩኒቨርስቲ</strong>
-                    </h3>
-
-                    <p style="text-align:justify;">
-                        ካሊፋ ዩኒቨርስቲ በአለም አቀፍ ደረጃ 211ኛ ላይ ሲገኝ በ2021 በተሰጠው የዩኒቨርስቲዎች ደረጃ ደግሞ በአረብ ዉሰጥ ካሉ ዩኒቨርስቲዎች ውሰጥ በ
-                        ዘጠነኛ
-                        ደረጃ ላይ
-                        ተቀምጧል። ካሊፋ ዩኒቨርስቲ ለትርፍ ያልተቋቋመ ትኩረቱን ሳይንስ ላይ አደረጎ በ 2007 የተመሰረተ ዩኒቨርሰቲ ነው። ዩኒቨርሰቲው በአሜሪካ የከፍተኛ
-                        ትምህርት
-                        ሞዴል
-                        የተቃኘም ጭምር ነው። ካሊፋ ዩኒቨርሰቲ በውሰጡ ሶሰት ኮሌጆች፣ ሶሰት የምርምር ኢኒስቲቲዩቶች፣ 18 የምርምር ማእከላት እና 36 ዲፓርትመንቶችን በተለያዩ
-                        የትምህርት
-                        መሰኮች ይዟል።
-                    </p>
-                    <h3 style="text-align:justify;" id="e2babf4d1fac0b01f1518ccc4784d0867">
-                        <strong>ዪኒቨርስቲ ኦፍ ሻርጃ</strong>
-                    </h3>
-
-                    <p style="text-align:justify;">
-                        ዪኒቨርሰቲ ኦፍ ሻርጃ በ 1997 የተቋቋመ ሲሆን በመካከለኛው እሩቅ ምሰራቅ እና በአለም አቀፍ ደረጃ ቀዳሚ የትምህርት ተቋም ለመሆን አልሞ እየሰራ ያለ
-                        ዩኒቨርሰቲ
-                        ነው።
-                    </p>
-                    <h3 style="text-align:justify;" id="e39cc3764778abcbd55396c73802d890e">
-                        <strong>ዛይድ ዩኒቨርስቲ</strong>
-                    </h3>
-                    <p style="text-align:justify;">
-                        በ1998 የተመሰረተዉ ዛይድ ዩኒቨርስቲ በQS World University Rankings® 2019 (<a
-                            href="https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.top%2F%3Ffbclid%3DIwAR3kG84LtFohsh1SUTqbyIh7oAlXzZ9Yao2n_qqE4K1KFBdNL3IizosNbOc&amp;h=AT19oS5munkoDUYM8gGMeYYA500z-so1wG5PCIJ7JVrZ2Uqr00Hqwynb_3oGtF0tKdGeEqxwuUuF2ecrw5raLDsqkf4CBi2MdlLyZnenAnmbdNpMqCW3ipIA6vxvVlRnqZSi&amp;__tn__=-UK-R&amp;c[0]=AT3ZmPYwKBqm-uCEHuigBi9m2oBFFQeJYTjt83XJsKrGtsdtgx5ZXxKKUREkostRGi7oCMo5zeYDyl6GfdehsffCkrtCF9Ag7HJ42dkYznSXp2yQd99FsyfluH229dWomDOBuiW_MMVY4QBm1pjd6DJo0Sn0u5EaiJOjK9ME-M-vK9pTwpmtMkq45lQwpwUcLeg_RoJw8sfaicSbvuBCTodfwDwIxEGbN_LucOJ9MPgJKaAv767I">https://www.top</a>
-                        <a
-                            href="https://l.facebook.com/l.php?u=http%3A%2F%2Funiversities.com%2Funiversity-rankings%2Fworld-university-rankings%2F2021%3Ffbclid%3DIwAR2rhjxrnUoCJ8_6q1j_vQec17l95NK0SLLVhnZXJgWZ3ymiBUag59tRabs&amp;h=AT3U11Kx-bc7tc6BxV9vneUs02Vcf8P4Fw_6A8VjXKTvVWvQJM_GMp9fcxuUJtuOqe6lOL3uUMyDYOBPNLaX-6dlggghtKsSHynyPRR-jLRRV05c72dJHLZtNOejI_4fSM8p&amp;__tn__=-UK-R&amp;c[0]=AT3ZmPYwKBqm-uCEHuigBi9m2oBFFQeJYTjt83XJsKrGtsdtgx5ZXxKKUREkostRGi7oCMo5zeYDyl6GfdehsffCkrtCF9Ag7HJ42dkYznSXp2yQd99FsyfluH229dWomDOBuiW_MMVY4QBm1pjd6DJo0Sn0u5EaiJOjK9ME-M-vK9pTwpmtMkq45lQwpwUcLeg_RoJw8sfaicSbvuBCTodfwDwIxEGbN_LucOJ9MPgJKaAv767I">http://universities.com/.../world-university-rankings/2021</a>).
-                        701-750 መካከል የነበረ ነዉ፡፡
+                    <p>
+                        <strong>ልህቀት፤</strong>
+                        ከፍተኛ ጥራት፣ በራስ መተማመን አስፈላጊ የሆኑ ክህሎቶችን ማግኘት፣ በግምገማ ፈተናዎች ላይ ከፍተኛ ውጤት ማግኘት ብቻ ሳይሆን ፣ የማሰብ፣ መረጃን
+                        የመተርጎም እና ችግሮችን የመፍታት የአዕምሮ አቅሞችን ማዳበር።
                     </p>
                 </div>
             </div>
 
-            <div
-                class=" sticky top-36 z-10 col-span-2 px-4 my-10 prose prose-invert max-w-4xl  prose-indigo prose-headings:text-mblue prose-p:text-gray-500 prose-img:rounded-xl w-full">
-                <div>
-                    <img src="https://moe.gov.et/storage/news/333587917_1158941468123913_6021443852551221056_n_1678947552.jpg"
-                        alt="" width="100%" class="mb-0 p-0">
-                    <p style="text-align:justify;">
-                        እነዚህ 273 ተማሪዎች የካቲት 21/2015 ዓም በሀገር አቀፍ ደረጃ የኢፌዲሪ ጠቅላይ ሚኒስትር ዶ/ር ዓብይ አህመድ፣ የትምህርት ሚኒስትሩ ፕሮፌሰር
-                        ብርሃኑ
-                        ነጋና
-                        የአጠቃላይ ትምህርት ዘርፍ ሚኒስትር ዴኤታ ዶ/ር ፋንታ ማንደፍሮ እጅ የእዉቅናና ሽልማት ተቀብለዋል፡፡
-                    </p>
-                    <p style="text-align:justify;">
-                        በዚሁ እለት በክቡር ጠቅላይ ሚኒስትር ዓብይ አህመድ ለእነዚህ ተማሪዎች በተባበሩት አረብ ኤምሬትስ የትምህርት እድል/ Scholarship / እንደተገኘ
-                        ተገልጸል፡፡
-                    </p>
-                    <p style="text-align:justify;">
-                        በ2014 ዓም. የተጀመረዉ የፈተና ስርዓት ለዉጥ እንዲጠናከርና መንግስት ለትምህርት ዘርፉ የሰጠዉን ልዩ ትኩረት ለማሳየት ጠቅላይ ሚኒስትሩ ባደረጉት
-                        ጥረት
-                        ከወዳጅ
-                        አገራት የተገኘዉ ይህ የትምህርት እድል ተማሪዎች ከመስከረም/2016 ዓም ጀምሮ እንዲማሩ ተመቻችቷል፡፡
-                    </p>
-                    <p style="text-align:justify;">
-                        ወደዉጪ እስኪሄዱ ድረስ ያሉትን ግዜያት የእንግሊዝኛ ቋንቋ ማሻሻያ ትምህርት በመማርና ሌሎች ለወደፊታቸዉ የሚያግዙ ቅድመ-ዝግጅቶችን እያደረጉ እንድቆዩ
-                        የሚሰራ
-                        ይሆናል፡፡
-                    </p>
-                    <p style="text-align:justify;">
-                        እዚህ ላይ መታወቅ ያለበት አንድ ጉዳይ እነዚህ ተማሪዎች የተፈጠረላቸዉ እድል በቀጣይ እየተፈጠረ ላለዉ በዉድድር ላይ የተመሰረተ ዓለም እኛንም በዓለም
-                        አቀፍ
-                        ደረጃ
-                        ተወዳዳሪ የሚያደርጉ ምሩቃንንና ሳይንትስቶችን ፣ ቴክኖሎጂስቶችን፣ መሪዎችን የመፍጠሪያ ልዩ እድል ነው፡፡
-                    </p>
-                    <p style="text-align:justify;">
-                        በተጨማሪም ተማሪዎቻችን በሄዱበት የሀገር ስምና ገጽታ ናቸዉ ፡፡ በአቅማቸዉ ተወዳድረዉ በዓለም ደረጃ ስመጥር በሆኑ ዩኒቨርስቲዎች አሸንፈዉ ጥሩ ሆነዉ
-                        ተመርቀዉ
-                        በተሻለ ዉጤት ሲመጡ ኢትዮጵያ ዉስጥ ትምህርት ምን እንደሚመስል ሌላዉም ዓለም ይገነዘባል፡፡ ወደሀገራቸዉ ተመልሰዉ ሲያገለግሉም በፍጥነት ከድህነት
-                        ለመዉጣትና
-                        ወደብልጽግና ለመሄድ ለምናደርገዉ ስራ አጋዥ ይሆናል የሚል ፅኑ እምነት አለ፡፡
-                    </p>
-                    <p style="text-align:justify;">
-                        የተፈጠረዉ የትምህርት ዕድል በጣም ጥሩ እድል ነዉ፡፡ ነገር ግን ዕድሉ ለተፈጠረላቸዉ ተማሪዎች እንደግዴታ የሚወሰድ አይደለም፡፡ በጣም ትልቅ እድል፣
-                        ከፍተኛ
-                        ጥረት
-                        ተደርጎበት በክቡር በጠቅላይ ሚኒስትር ዶ/ር አብይ አህመድ የተገኘ እድል ነዉ፡፡ በመሆኑም የአንድም ተማሪ እድል ሳይባክን መጠቀም ለሀገር ይጠቅማል፡፡
-                        ይህንን
-                        በማድረግ ሂደት ዉስጥ ደግሞ ሁሉም የበኩሉን እንዲወጣ ማድረግ ያስፈልጋል፡፡
-                    </p>
-                    <p style="text-align:justify;">
-                        ይሁን እንጅ ተማሪዎች መማር የምፈልገዉ በሀገር ዉስጥ ባሉ ዩኒቨርስቲዎች ነዉ ብለዉ ካሰቡ የሚገደዱበት ሁኔታ የለም፡፡
-                    </p>
-                    <p style="text-align:justify;">
-                        እነዚህ ተማሪዎች በተባበሩት ኤሜሬትስ በየትኞቹ ዩኒቨርስቲዎች ሊማሩ ይችላሉ?
-                    </p>
-                    <p style="text-align:justify;">
-                        በተባበሩት አረብ ኤምሬትስ በአለም አቀፍ ደረጃ ስመጥር የሆኑ ብዙ ዩኒቨርስቲዎች ያሉ ሲሆን ስድስት ዩኒቨርስቲዎች QS World University
-                        Rankings®
-                        2021 (<a
-                            href="https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.topuniversities.com%2Funiversity-rankings%2Fworld-university-rankings%2F2021%3Ffbclid%3DIwAR3kXg6Zn9QpzTTSO2CaEHLnqkmUInT0T6-3J5H2_cV3ktKmzd0blj86abY&amp;h=AT1_ooH6F1Jve3rcSBizWYIxkQsONZlkqj2AzI9CzXtQeYSC4V-o1enh8a5QczYoSZtCR77iNXlwgTwIc_KL14akw6wtSGbHhSAYJrdnSlwzsvlFp4qa6cUo-G545u35TkGj&amp;__tn__=-UK-R&amp;c[0]=AT3ZmPYwKBqm-uCEHuigBi9m2oBFFQeJYTjt83XJsKrGtsdtgx5ZXxKKUREkostRGi7oCMo5zeYDyl6GfdehsffCkrtCF9Ag7HJ42dkYznSXp2yQd99FsyfluH229dWomDOBuiW_MMVY4QBm1pjd6DJo0Sn0u5EaiJOjK9ME-M-vK9pTwpmtMkq45lQwpwUcLeg_RoJw8sfaicSbvuBCTodfwDwIxEGbN_LucOJ9MPgJKaAv767I">https://www.topuniversities.com/.../world-university.../2021</a>),
-                        የተካተቱ ሲሆን ስምንት ዩኒቨርስቲዎች ደግሞ በ 2023 QS Arab Region University Rankings (<a
-                            href="https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.topuniversities.com%2F%3Ffbclid%3DIwAR3kG84LtFohsh1SUTqbyIh7oAlXzZ9Yao2n_qqE4K1KFBdNL3IizosNbOc&amp;h=AT2ZpNG0HfQS1SLpoEBgF8a9u2NlmU8O2NrqeWCDPNxRKuggxA-KK09WprTzZCSuESCrNzyNz1f1uQWN3qEc260xiv8VgsL9g94pdFClonGE3pZ2bG1wVK07SR5rpCAJYi8V&amp;__tn__=-UK-R&amp;c[0]=AT3ZmPYwKBqm-uCEHuigBi9m2oBFFQeJYTjt83XJsKrGtsdtgx5ZXxKKUREkostRGi7oCMo5zeYDyl6GfdehsffCkrtCF9Ag7HJ42dkYznSXp2yQd99FsyfluH229dWomDOBuiW_MMVY4QBm1pjd6DJo0Sn0u5EaiJOjK9ME-M-vK9pTwpmtMkq45lQwpwUcLeg_RoJw8sfaicSbvuBCTodfwDwIxEGbN_LucOJ9MPgJKaAv767I">https://www.topuniversities.com/</a>
-                        arab-region-rankings) . ተካተዋል፡፡
-                    </p>
-                    <p style="text-align:justify;">
-                        በአረብ ኤምሬትስ ካሉ ዩኒቭርስቲዎች ትልቁ የተባበሩት አረብ ኤምሬተስ ከፍተኛ የቴክኖሎጂ ኮሌጅ ሲሆን በሀገሪቱ በአጠቃላይ 17 ካምፓሶች አሉት።
-                    </p>
-                    <h3 style="text-align:justify;" id="ea86cca201ca356dc0c6eecfacf6372c1">
-                        <strong>የተባበሩት አርብ ኤምሬትስ ዩኒቨርስቲ</strong>
-                    </h3>
-                    <p style="text-align:justify;">
-                        የተባበሩት አርብ ኤምሬትስ ዩኒቨርስቲ በአለም አቀፍ ደረጃ 284ኛ ላይ ሲገኝ በአረብ ወሰጥ ካሉ ዩኒቨርስቲዎች ዉሰጥ ደግሞ አምሰተኛ ደረጃ ላይ ይገኛል።
-                        መቀመጫውንም
-                        አል አይን በተባለችው የአቡ ዳቢ ከተማ ሲሆን ካሉት ዩኒቨርስቲዎችም በእድሜ ትንሹ ነው።
-                    </p>
-                    <h3 style="text-align:justify;" id="e556a413c520cdbb4f9d74874287492d4">
-                        <strong>አሜሪካን ዩኒቨርስቲ ኦፍ ሻርጃ</strong>
-                    </h3>
+            <div class="col-span-4 bg-mwhite rounded-lg w-full list-none py-5 px-6">
+                <h2 class="font-black text-mblue text-3xl mb-4">About Us</h2>
+                <x-navbar.menu-link name="Mission, Vision & Values" link="{{ route('mvav') }}"
+                    active="{{ request()->routeIs('mvav') }}" />
+                <x-navbar.menu-link name="Power and Duties" link="{{ route('power-duties') }}"
+                    active="{{ request()->routeIs('power-duties') }}" />
+                <x-navbar.menu-link name="Organizational Structure" link="{{ route('org-chart') }}"
+                    active="{{ request()->routeIs('org-chart') }}" />
+                <x-navbar.menu-link name="Who Is Who" link="{{ route('who-is-who') }}"
+                    active="{{ request()->routeIs('who-is-who') }}" />
+                <x-navbar.menu-link name="Partners & Stakeholders" link="{{ route('partners') }}"
+                    active="{{ request()->routeIs('partners') }}" />
 
-                    <p style="text-align:justify;">
-                        አሜሪካን ዩኒቨርስቲ ኦፍ ሻርጃ በተባበሩት አረብ ኤምሬትስ ዉስጥ ካሉ ዩኒቨርስቲዎች በሰባተኛነት የተቀመጠ ሲሆን የሚሰጣቸው የትምህርት አይነቶችም
-                        በአሜሪካ
-                        የከፍተኛ
-                        ትምህርት ሞዴል መሰረት ነው። በአለም አቀፍ ተማሪዎችም ተመራጭ የሆነ ዩኒቨርስቲ ነው።
-                    </p>
-                    <h3 style="text-align:justify;" id="e71ee98ae70b1cb17b07946612b0e1563">
-                        <strong>ካሊፋ ዩኒቨርስቲ</strong>
-                    </h3>
-
-                    <p style="text-align:justify;">
-                        ካሊፋ ዩኒቨርስቲ በአለም አቀፍ ደረጃ 211ኛ ላይ ሲገኝ በ2021 በተሰጠው የዩኒቨርስቲዎች ደረጃ ደግሞ በአረብ ዉሰጥ ካሉ ዩኒቨርስቲዎች ውሰጥ በ
-                        ዘጠነኛ
-                        ደረጃ ላይ
-                        ተቀምጧል። ካሊፋ ዩኒቨርስቲ ለትርፍ ያልተቋቋመ ትኩረቱን ሳይንስ ላይ አደረጎ በ 2007 የተመሰረተ ዩኒቨርሰቲ ነው። ዩኒቨርሰቲው በአሜሪካ የከፍተኛ
-                        ትምህርት
-                        ሞዴል
-                        የተቃኘም ጭምር ነው። ካሊፋ ዩኒቨርሰቲ በውሰጡ ሶሰት ኮሌጆች፣ ሶሰት የምርምር ኢኒስቲቲዩቶች፣ 18 የምርምር ማእከላት እና 36 ዲፓርትመንቶችን በተለያዩ
-                        የትምህርት
-                        መሰኮች ይዟል።
-                    </p>
-                    <h3 style="text-align:justify;" id="e2babf4d1fac0b01f1518ccc4784d0867">
-                        <strong>ዪኒቨርስቲ ኦፍ ሻርጃ</strong>
-                    </h3>
-
-                    <p style="text-align:justify;">
-                        ዪኒቨርሰቲ ኦፍ ሻርጃ በ 1997 የተቋቋመ ሲሆን በመካከለኛው እሩቅ ምሰራቅ እና በአለም አቀፍ ደረጃ ቀዳሚ የትምህርት ተቋም ለመሆን አልሞ እየሰራ ያለ
-                        ዩኒቨርሰቲ
-                        ነው።
-                    </p>
-                    <h3 style="text-align:justify;" id="e39cc3764778abcbd55396c73802d890e">
-                        <strong>ዛይድ ዩኒቨርስቲ</strong>
-                    </h3>
-                    <p style="text-align:justify;">
-                        በ1998 የተመሰረተዉ ዛይድ ዩኒቨርስቲ በQS World University Rankings® 2019 (<a
-                            href="https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.top%2F%3Ffbclid%3DIwAR3kG84LtFohsh1SUTqbyIh7oAlXzZ9Yao2n_qqE4K1KFBdNL3IizosNbOc&amp;h=AT19oS5munkoDUYM8gGMeYYA500z-so1wG5PCIJ7JVrZ2Uqr00Hqwynb_3oGtF0tKdGeEqxwuUuF2ecrw5raLDsqkf4CBi2MdlLyZnenAnmbdNpMqCW3ipIA6vxvVlRnqZSi&amp;__tn__=-UK-R&amp;c[0]=AT3ZmPYwKBqm-uCEHuigBi9m2oBFFQeJYTjt83XJsKrGtsdtgx5ZXxKKUREkostRGi7oCMo5zeYDyl6GfdehsffCkrtCF9Ag7HJ42dkYznSXp2yQd99FsyfluH229dWomDOBuiW_MMVY4QBm1pjd6DJo0Sn0u5EaiJOjK9ME-M-vK9pTwpmtMkq45lQwpwUcLeg_RoJw8sfaicSbvuBCTodfwDwIxEGbN_LucOJ9MPgJKaAv767I">https://www.top</a>
-                        <a
-                            href="https://l.facebook.com/l.php?u=http%3A%2F%2Funiversities.com%2Funiversity-rankings%2Fworld-university-rankings%2F2021%3Ffbclid%3DIwAR2rhjxrnUoCJ8_6q1j_vQec17l95NK0SLLVhnZXJgWZ3ymiBUag59tRabs&amp;h=AT3U11Kx-bc7tc6BxV9vneUs02Vcf8P4Fw_6A8VjXKTvVWvQJM_GMp9fcxuUJtuOqe6lOL3uUMyDYOBPNLaX-6dlggghtKsSHynyPRR-jLRRV05c72dJHLZtNOejI_4fSM8p&amp;__tn__=-UK-R&amp;c[0]=AT3ZmPYwKBqm-uCEHuigBi9m2oBFFQeJYTjt83XJsKrGtsdtgx5ZXxKKUREkostRGi7oCMo5zeYDyl6GfdehsffCkrtCF9Ag7HJ42dkYznSXp2yQd99FsyfluH229dWomDOBuiW_MMVY4QBm1pjd6DJo0Sn0u5EaiJOjK9ME-M-vK9pTwpmtMkq45lQwpwUcLeg_RoJw8sfaicSbvuBCTodfwDwIxEGbN_LucOJ9MPgJKaAv767I">http://universities.com/.../world-university-rankings/2021</a>).
-                        701-750 መካከል የነበረ ነዉ፡፡
-                    </p>
-                </div>
+                <x-navbar.menu-link name="University" link="{{ route('universties') }}"
+                    active="{{ request()->routeIs('universties') }}" />
+                <x-navbar.menu-link name="Regional Bureau" link="{{ route('bureaus') }}"
+                    active="{{ request()->routeIs('bureaus') }}" />
+                <x-navbar.menu-link name="Agencies" link="{{ route('agencies') }}"
+                    active="{{ request()->routeIs('agencies') }}" />
+                <x-navbar.menu-link name="CTE" link="{{ route('ctes') }}" active="{{ request()->routeIs('ctes') }}" />
+                <x-navbar.menu-link name="Fact Sheet" link="{{ route('fact-sheet') }}"
+                    active="{{ request()->routeIs('fact-sheet') }}" />
+                <x-navbar.menu-link name="History" link="{{ route('history') }}" />
             </div>
         </div>
-    </div>
 
 
 </x-guest-layout>
