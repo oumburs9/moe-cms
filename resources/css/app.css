@@ -4,123 +4,122 @@
 
 @layer base {
 
+    /* Amharic Font */
     @font-face {
-        font-family: "Noto";
+        font-family: "amharic";
         font-weight: 100;
-        src: url("../fonts/NunitoSans-ExtraLight.woff") format("woff");
+        src: url("../fonts/NotoSansEthiopic-ExtraLight.woff") format("woff");
 
     }
 
     @font-face {
-        font-family: "Noto";
+        font-family: "amharic";
         font-weight: 200;
-        src: url("../fonts/NunitoSans-ExtraLight.woff") format("woff");
+        src: url("../fonts/NotoSansEthiopic-ExtraLight.woff") format("woff");
 
     }
 
     @font-face {
-        font-family: "Noto";
+        font-family: "amharic";
         font-weight: 300;
-        src: url("../fonts/NunitoSans-Light.woff") format("woff");
+        src: url("../fonts/NotoSansEthiopic-Light.woff") format("woff");
 
     }
 
     @font-face {
-        font-family: "Noto";
+        font-family: "amharic";
         font-weight: 400;
-        src: url("../fonts/NunitoSans-Regular.woff") format("woff");
+        src: url("../fonts/NotoSansEthiopic-Regular.woff") format("woff");
 
     }
 
     @font-face {
-        font-family: "Noto";
+        font-family: "amharic";
         font-weight: 500;
-        src: url("../fonts/NunitoSans-Regular.woff") format("woff");
-
+        src: url("../fonts/NotoSansEthiopic-Regular.woff") format("woff");
     }
 
     @font-face {
-        font-family: "Noto";
+        font-family: "amharic";
         font-weight: 600;
-        src: url("../fonts/NunitoSans-SemiBold.woff") format("woff");
+        src: url("../fonts/NotoSansEthiopic-SemiBold.woff") format("woff");
 
     }
 
     @font-face {
-        font-family: "Noto";
+        font-family: "amharic";
         font-weight: 600;
-        src: url("../fonts/NunitoSans-Bold.woff") format("woff");
+        src: url("../fonts/NotoSansEthiopic-Bold.woff") format("woff");
 
     }
 
     @font-face {
-        font-family: "Noto";
+        font-family: "amharic";
         font-weight: 800;
-        src: url("../fonts/NunitoSans-ExtraBold.woff") format("woff");
+        src: url("../fonts/NotoSansEthiopic-ExtraBold.woff") format("woff");
 
     }
 
     @font-face {
-        font-family: "Noto";
+        font-family: "amharic";
         font-weight: 900;
-        src: url("../fonts/NunitoSans-Black.ttf") format("woff");
+        src: url("../fonts/NotoSansEthiopic-Black.woff") format("woff");
 
     }
 
     /* English Font */
-
     @font-face {
-        font-family: "Gotham";
+        font-family: "english";
         font-weight: 100;
-        src: url("../fonts/Gotham-Thin.woff") format("woff");
+        src: url("../fonts/NunitoSans-Thin.ttf") format("ttf");
     }
 
     @font-face {
-        font-family: "Gotham";
+        font-family: "english";
         font-weight: 200;
-        src: url("../fonts/Gotham-XLight.woff") format("woff");
+        src: url("../fonts/NunitoSans-ExtraLight.woff") format("woff");
     }
 
     @font-face {
-        font-family: "Gotham";
+        font-family: "english";
         font-weight: 300;
-        src: url("../fonts/Gotham-Light.woff") format("woff");
+        src: url("../fonts/NunitoSans-Light.woff") format("woff");
     }
 
     @font-face {
-        font-family: "Gotham";
+        font-family: "english";
         font-weight: 400;
-        src: url("../fonts/Gotham\ Book.woff") format("woff");
+        src: url("../fonts/NunitoSans-Light.woff") format("woff");
     }
 
     @font-face {
-        font-family: "Gotham";
+        font-family: "english";
         font-weight: 500;
-        src: url("../fonts/Gotham-Medium.woff") format("woff");
+        src: url("../fonts/NunitoSans-Regular.woff") format("woff");
     }
 
     @font-face {
-        font-family: "Gotham";
+        font-family: "english";
         font-weight: 600;
-        src: url("../fonts/Gotham-Bold.woff") format("woff");
+        src: url("../fonts/NunitoSans-SemiBold.woff") format("woff");
     }
 
     @font-face {
-        font-family: "Gotham";
+        font-family: "english";
         font-weight: 700;
-        src: url("../fonts/Gotham-Black.woff") format("woff");
+        src: url("../fonts/NunitoSans-Bold.woff") format("woff");
     }
 
     @font-face {
-        font-family: "Gotham";
+        font-family: "english";
         font-weight: 800;
-        src: url("../fonts/Gotham-Ultra.woff") format("woff");
+        src: url("../fonts/NunitoSans-ExtraBold.woff") format("woff");
     }
 
     @font-face {
-        font-family: "Gotham";
+        font-family: "english";
         font-weight: 900;
-        src: url("../fonts/Gotham-Ultra.woff") format("woff");
+        src: url("../fonts/NunitoSans-Black.ttf") format("woff");
     }
 
     /* Chrome, Safari, Edge, Opera */
