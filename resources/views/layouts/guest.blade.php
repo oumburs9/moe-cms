@@ -13,14 +13,12 @@
     </head>
 
     <body
-        class="font-noto text-base text-black dark:text-white bg-gradient-to-br from-white via-white to-blue/5 h-auto antialiased">
+        class=" font-en text-base text-black dark:text-white bg-gradient-to-br from-white via-white to-blue/5 h-auto antialiased">
         <x-navbar.nav />
         <main>
             {{ $slot }}
         </main>
         <x-footer.footer />
-
-
         <!-- JAVASCRIPTS -->
         @stack('modals')
         @livewireScripts
