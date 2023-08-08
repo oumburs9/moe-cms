@@ -4,11 +4,11 @@
         <x-page.nav link="#" name="Organizational Structure" current />
     </x-page.banner>
 
-    <section class=" relative py-10 sm:py-16 lg:py-24">
-        <div class="px-4 mx-auto sm:px-6 lg:px-8 container max-w-9xl mb-10">
+    <section class="relative py-10">
+        <div class="container px-4 mx-auto mb-10 sm:px-6 lg:px-8 max-w-9xl">
 
-            <div class="mx-auto mt-16 w-full border-2 border-myellow border-b-0 relative h-28 max-w-lg translate-y-14">
-                <x-logo h="10rem" class="absolute inset-0 z-20 bottom-full hover:scale-110 transition cursor-pointer">
+            <div class="relative w-full max-w-lg mx-auto mt-16 border-2 border-b-0 border-myellow h-28 translate-y-14">
+                <x-logo h="10rem" class="absolute inset-0 z-20 transition cursor-pointer bottom-full hover:scale-110">
                 </x-logo>
             </div>
 
