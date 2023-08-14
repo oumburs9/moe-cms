@@ -4,7 +4,6 @@
         {{ $title ?? "Latest from News"}}
     </h2>
     <p class="max-w-xl mt-4 text-base leading-relaxed text-gray-600">
-        {{ $subtitle ?? "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat
-        duis."}}
+        {{ $subtitle ?? ""}}
     </p>
 </div>

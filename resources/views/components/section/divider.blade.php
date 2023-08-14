@@ -1,0 +1,2 @@
+<div class="relative mt-16 before:absolute after:absolute before:bg-mblue after:bg-msky before:left-0 before:top-0 before:h-1 before:w-6 after:left-8 after:right-0 after:top-0 after:h-1"
+    style="opacity: 1; transform: none;"></div>

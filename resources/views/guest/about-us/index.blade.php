@@ -1,9 +1,9 @@
 <x-guest-layout>
     @yield('banner')
-    <div class="container mx-auto font-am">
-        <div class="grid grid-cols-8 gap-10 my-10 md:grid-cols-12">
+    <div class="container mx-auto">
+        <div class="grid grid-cols-8 gap-10 my-10 md:grid-cols-12 ">
             <div
-                class="w-full col-span-8 px-4 prose max-w-7xl prose-mblue prose-headings:text-mblue prose-p:text-gray-500 prose-img:rounded-xl font-noto prose-strong:text-gray-700 prose-p:-mt-5">
+                class="w-full col-span-8 px-4 prose font-am max-w-7xl prose-mblue prose-headings:text-mblue prose-p:text-gray-500 prose-img:rounded-xl font-noto prose-strong:text-gray-700 prose-p:-mt-5 pro">
                 @yield('content')
             </div>
 

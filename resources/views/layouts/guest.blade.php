@@ -13,7 +13,7 @@
     </head>
 
     <body
-        class=" font-en text-base text-black dark:text-white bg-gradient-to-br from-white via-white to-blue/5 h-auto antialiased">
+        class="h-auto text-base antialiased text-black  font-en dark:text-white bg-gradient-to-br from-white via-white to-mblue/5">
         <x-navbar.nav />
         <main>
             {{ $slot }}
