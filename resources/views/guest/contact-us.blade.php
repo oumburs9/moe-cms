@@ -28,31 +28,20 @@
                     <h3 class="mb-6 text-2xl font-bold leading-normal text-mblue">Get in touch !</h3>
                     <div class="grid md:gap-8 md:grid-cols-2">
                         <div class="mb-6">
-                            <label for="name" class="block mb-2 text-sm font-semibold text-gray-900 dark:text-gray-300">
-                                Name</label>
-                            <input required="" type="text" id="name" placeholder="John"
-                                class=" border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-mblue focus:border-mblue block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-mblue dark:focus:border-mblue"
-                                value="">
+                            <x-form.input id="name" label="Name" placeholder="John" />
                         </div>
-                        <div class="mb-6"><label for="email"
-                                class="block mb-2 text-sm font-semibold text-gray-900 dark:text-gray-300">Email
-                                address</label><input required="" type="email" id="email"
-                                placeholder="john.doe@company.com"
-                                class=" border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-mblue focus:border-mblue block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-mblue dark:focus:border-mblue"
-                                value=""></div>
+                        <div class="mb-6">
+                            <x-form.input type="email" id="email" label="Email address"
+                                placeholder="john.doe@company.com" />
+                        </div>
                     </div>
 
-                    <div class="mb-6"><label for="subject"
-                            class="block mb-2 text-sm font-semibold text-gray-900 dark:text-gray-300">Subject</label><input
-                            required="" type="text" id="subject"
-                            class=" border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-mblue focus:border-mblue block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-mblue dark:focus:border-mblue"
-                            placeholder="Subject name" value=""></div>
+                    <div class="mb-6">
+                        <x-form.input id="subject" label="Subject" placeholder="Subject name" />
+                    </div>
 
-                    <div class="mb-6"><label for="message"
-                            class="block mb-2 text-sm font-semibold text-gray-900 dark:text-gray-400">Message</label><textarea
-                            required="" id="message" rows="4"
-                            class="block p-2.5 w-full text-sm text-gray-900 rounded-lg border border-gray-300 focus:ring-mblue focus:border-mblue dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-mblue dark:focus:border-mblue"
-                            placeholder="Your message..."></textarea>
+                    <div class="mb-6">
+                        <x-form.textarea id="message" rows=5 label="Message" placeholder="Your message..." />
                     </div>
 
                     {{-- <p class="mb-6 text-sm text-gray-500">By submitting this form you agree to our <a

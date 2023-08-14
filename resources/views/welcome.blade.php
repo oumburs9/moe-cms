@@ -27,23 +27,23 @@
 
     {{-- Education sector --}}
     <section class="relative py-10 sm:py-16 lg:py-24 ">
-        <div class="px-4 mx-auto sm:px-6 lg:px-8 container">
+        <div class="container px-4 mx-auto sm:px-6 lg:px-8">
             <x-section.title title="Education Sector" />
             <div
                 class="grid max-w-md grid-cols-1 mx-auto mt-12 lg:max-w-full lg:mt-16 lg:grid-cols-2 gap-x-16 gap-y-12">
                 <a href="{{ route('general-education') }}">
                     <div
-                        class=" py-4 px-6 rounded-lg shadow-xl shadow-msky/40 hover:shadow-msky/60 bg-msky hover:-translate-y-1 transition-transform cursor-pointer">
+                        class="px-6 py-4 transition-transform rounded-lg shadow-xl cursor-pointer shadow-msky/40 hover:shadow-msky/60 bg-msky hover:-translate-y-1">
                         <p class="text-3xl font-semibold mb-4 text-[#fff]">General Education Development Sector</p>
                         <ul class="text-[#fff] space-y-2 px-1">
-                            <li> <i class="fi fi-rr-arrow-turn-down-right mr-2"></i> Curriculum development executive
+                            <li> <i class="mr-2 fi fi-rr-arrow-turn-down-right"></i> Curriculum development executive
                             </li>
-                            <li> <i class="fi fi-rr-arrow-turn-down-right mr-2"></i> Teachers’ and Educational leaders’
+                            <li> <i class="mr-2 fi fi-rr-arrow-turn-down-right"></i> Teachers’ and Educational leaders’
                                 development</li>
-                            <li> <i class="fi fi-rr-arrow-turn-down-right mr-2"></i> Educational Program and Quality
+                            <li> <i class="mr-2 fi fi-rr-arrow-turn-down-right"></i> Educational Program and Quality
                                 Improvement
                             </li>
-                            <li> <i class="fi fi-rr-arrow-turn-down-right mr-2"></i> Adult and non formal Education
+                            <li> <i class="mr-2 fi fi-rr-arrow-turn-down-right"></i> Adult and non formal Education
                                 programs
                             </li>
                         </ul>
@@ -52,31 +52,32 @@
 
                 <a href="{{ route('higher-education') }}">
                     <div
-                        class=" py-4 px-6 rounded-lg shadow-xl shadow-mblue/40 hover:shadow-mblue/60 bg-mblue hover:-translate-y-1 transition-transform cursor-pointer">
-                        <p class="text-3xl font-semibold  mb-4 text-white">Higher Education Development Sector</p>
+                        class="px-6 py-4 transition-transform rounded-lg shadow-xl cursor-pointer shadow-mblue/40 hover:shadow-mblue/60 bg-mblue hover:-translate-y-1">
+                        <p class="mb-4 text-3xl font-semibold text-white">Higher Education Development Sector</p>
 
-                        <ul class="text-white space-y-2 px-1">
-                            <li><i class="fi fi-rr-arrow-turn-down-right mr-2"></i> Academic Affairs Executive</li>
-                            <li><i class="fi fi-rr-arrow-turn-down-right mr-2"></i> Research and Community Engagement
+                        <ul class="px-1 space-y-2 text-white">
+                            <li><i class="mr-2 fi fi-rr-arrow-turn-down-right"></i> Academic Affairs Executive</li>
+                            <li><i class="mr-2 fi fi-rr-arrow-turn-down-right"></i> Research and Community Engagement
                                 Executive
                             </li>
-                            <li><i class="fi fi-rr-arrow-turn-down-right mr-2"></i> Governance and Infrastructure
+                            <li><i class="mr-2 fi fi-rr-arrow-turn-down-right"></i> Governance and Infrastructure
                                 executive
                             </li>
-                            <li><i class="fi fi-rr-arrow-turn-down-right mr-2"></i> ICT and Digital Education executive
+                            <li><i class="mr-2 fi fi-rr-arrow-turn-down-right"></i> ICT and Digital Education executive
                             </li>
                         </ul>
                     </div>
                 </a>
             </div>
+            <x-section.divider />
         </div>
     </section>
 
-    <section class="relative py-10 sm:py-16 lg:py-24">
-        <div class="px-4 mx-auto sm:px-6 lg:px-8 container">
+    <section class="relative pb-10 sm:pb-16 lg:pb-24">
+        <div class="container px-4 mx-auto sm:px-6 lg:px-8">
             <x-section.title title="Our Recent News" />
             <div
-                class="grid max-w-md grid-cols-1 mx-auto mt-12 lg:max-w-full lg:mt-16 lg:grid-cols-3 gap-x-16 gap-y-12 mb-10">
+                class="grid max-w-md grid-cols-1 mx-auto mt-12 mb-10 lg:max-w-full lg:mt-16 lg:grid-cols-3 gap-x-16 gap-y-12">
                 <x-news.card />
                 <x-news.card />
                 <x-news.card />
@@ -84,15 +85,15 @@
                 <x-news.card />
                 <x-news.card />
             </div>
+            <x-section.divider />
         </div>
         {{-- <x-section.banner /> --}}
     </section>
 
-    <section class=" relative py-10 sm:py-16 lg:py-24">
-        <div class="px-4 mx-auto sm:px-6 lg:px-8 container max-w-9xl mb-10">
+    <section class="relative pb-24">
+        <div class="container justify-between px-4 mx-auto mb-10 sm:px-6 lg:px-8 max-w-9xl">
             <x-section.title title="Our Ministers" />
-            <div
-                class="grid max-w-md grid-cols-1 mx-auto mt-12 lg:max-w-full lg:mt-16 lg:grid-cols-3 gap-x-28 gap-y-10">
+            <div class="grid max-w-md grid-cols-1 mt-12 lg:max-w-5xl lg:mt-16 lg:grid-cols-3 gap-x-28 gap-y-10">
                 <x-ministers.card name="H.E Pro. Birhanu Nega" title="Minister"
                     image="https://moe.gov.et/storage/minimsg/%E1%8C%B0%E1%8C%B0%E1%8C%B02014_1634039719.jpg" />
                 <x-ministers.card name=" H.E. Dr. Samuel Kifle (PhD)" title="STATE MINISTER" image="/samuel.jpg"
@@ -101,17 +102,17 @@
                     image="https://moe.gov.et/storage/minimsg/photo_2021-10-12_15-33-45_1634042442.jpg"
                     sector="General Education Sector" />
             </div>
+            <x-section.divider />
         </div>
-        <x-section.banner />
     </section>
 
-    <section class=" relative py-10 sm:py-16 lg:py-24">
-        <div class="px-4 mx-auto sm:px-6 lg:px-8 container max-w-9xl mb-10">
+    <section class="relative pb-24">
+        <div class="container px-4 mx-auto mb-10 sm:px-6 lg:px-8 max-w-9xl">
             <x-section.title title="Organization structure"
                 subtitle="This is The Main Education Sector Development Organization Structure Chart" />
 
-            <div class="mx-auto mt-16 w-full border-2 border-myellow border-b-0 relative h-28 max-w-lg translate-y-14">
-                <x-logo h="10rem" class="absolute inset-0 z-20 bottom-full hover:scale-110 transition cursor-pointer">
+            <div class="relative w-full max-w-lg mx-auto mt-16 border-2 border-b-0 border-myellow h-28 translate-y-14">
+                <x-logo h="10rem" class="absolute inset-0 z-20 transition cursor-pointer bottom-full hover:scale-110">
                 </x-logo>
             </div>
 
@@ -179,5 +180,6 @@
                 </x-org-chart.sector>
             </div>
         </div>
+
     </section>
 </x-guest-layout>

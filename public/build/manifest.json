@@ -1,39 +1,67 @@
 {
-  "resources/fonts/NotoSansEthiopic-ExtraLight.woff": {
-    "file": "assets/NotoSansEthiopic-ExtraLight.c458c17d.woff",
-    "src": "resources/fonts/NotoSansEthiopic-ExtraLight.woff"
-  },
   "resources/fonts/NotoSansEthiopic-Regular.woff": {
     "file": "assets/NotoSansEthiopic-Regular.0f53dcd3.woff",
     "src": "resources/fonts/NotoSansEthiopic-Regular.woff"
-  },
-  "resources/fonts/NotoSansEthiopic-Bold.woff": {
-    "file": "assets/NotoSansEthiopic-Bold.3c44d93c.woff",
-    "src": "resources/fonts/NotoSansEthiopic-Bold.woff"
-  },
-  "resources/fonts/NotoSansEthiopic-SemiBold.woff": {
-    "file": "assets/NotoSansEthiopic-SemiBold.e9d00840.woff",
-    "src": "resources/fonts/NotoSansEthiopic-SemiBold.woff"
-  },
-  "resources/fonts/NotoSansEthiopic-ExtraBold.woff": {
-    "file": "assets/NotoSansEthiopic-ExtraBold.aad7560c.woff",
-    "src": "resources/fonts/NotoSansEthiopic-ExtraBold.woff"
-  },
-  "resources/fonts/NotoSansEthiopic-Black.woff": {
-    "file": "assets/NotoSansEthiopic-Black.c75c434e.woff",
-    "src": "resources/fonts/NotoSansEthiopic-Black.woff"
   },
   "resources/fonts/NotoSansEthiopic-Light.woff": {
     "file": "assets/NotoSansEthiopic-Light.e88493e5.woff",
     "src": "resources/fonts/NotoSansEthiopic-Light.woff"
   },
+  "resources/fonts/NotoSansEthiopic-SemiBold.woff": {
+    "file": "assets/NotoSansEthiopic-SemiBold.e9d00840.woff",
+    "src": "resources/fonts/NotoSansEthiopic-SemiBold.woff"
+  },
+  "resources/fonts/NotoSansEthiopic-ExtraLight.woff": {
+    "file": "assets/NotoSansEthiopic-ExtraLight.c458c17d.woff",
+    "src": "resources/fonts/NotoSansEthiopic-ExtraLight.woff"
+  },
+  "resources/fonts/NotoSansEthiopic-Bold.woff": {
+    "file": "assets/NotoSansEthiopic-Bold.3c44d93c.woff",
+    "src": "resources/fonts/NotoSansEthiopic-Bold.woff"
+  },
+  "resources/fonts/NotoSansEthiopic-Black.woff": {
+    "file": "assets/NotoSansEthiopic-Black.c75c434e.woff",
+    "src": "resources/fonts/NotoSansEthiopic-Black.woff"
+  },
+  "resources/fonts/NotoSansEthiopic-ExtraBold.woff": {
+    "file": "assets/NotoSansEthiopic-ExtraBold.aad7560c.woff",
+    "src": "resources/fonts/NotoSansEthiopic-ExtraBold.woff"
+  },
+  "resources/fonts/NunitoSans-ExtraLight.woff": {
+    "file": "assets/NunitoSans-ExtraLight.9fa4e799.woff",
+    "src": "resources/fonts/NunitoSans-ExtraLight.woff"
+  },
+  "resources/fonts/NunitoSans-Light.woff": {
+    "file": "assets/NunitoSans-Light.c4c897fd.woff",
+    "src": "resources/fonts/NunitoSans-Light.woff"
+  },
+  "resources/fonts/NunitoSans-Bold.woff": {
+    "file": "assets/NunitoSans-Bold.fbbf7df9.woff",
+    "src": "resources/fonts/NunitoSans-Bold.woff"
+  },
+  "resources/fonts/NunitoSans-Regular.woff": {
+    "file": "assets/NunitoSans-Regular.ef3c0cf1.woff",
+    "src": "resources/fonts/NunitoSans-Regular.woff"
+  },
+  "resources/fonts/NunitoSans-ExtraBold.woff": {
+    "file": "assets/NunitoSans-ExtraBold.36778b83.woff",
+    "src": "resources/fonts/NunitoSans-ExtraBold.woff"
+  },
+  "resources/fonts/NunitoSans-SemiBold.woff": {
+    "file": "assets/NunitoSans-SemiBold.de948482.woff",
+    "src": "resources/fonts/NunitoSans-SemiBold.woff"
+  },
+  "resources/fonts/NunitoSans-Black.ttf": {
+    "file": "assets/NunitoSans-Black.df2359fd.ttf",
+    "src": "resources/fonts/NunitoSans-Black.ttf"
+  },
   "resources/js/app.js": {
-    "file": "assets/app.66a8d20a.js",
+    "file": "assets/app.624dcb3b.js",
     "src": "resources/js/app.js",
     "isEntry": true
   },
   "resources/css/app.css": {
-    "file": "assets/app.6c017abc.css",
+    "file": "assets/app.95a35b4a.css",
     "src": "resources/css/app.css",
     "isEntry": true
   }
