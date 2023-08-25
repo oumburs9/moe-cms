@@ -17,7 +17,7 @@
             <ol class="inline-flex items-center space-x-1 md:space-x-3 text-[11px] sm:text-xs md:text-base font-medium">
                 <li class="inline-flex items-center">
                     <a href="/"
-                        class="inline-flex items-center text-gray-600 hover:text-mblue dark:text-gray-400 dark:hover:text-white gap-x-1">
+                        class="inline-flex items-center text-gray-600 hover:text-mblue gap-x-1">
                         <span class="fi fi-rr-home pt-0.5 "></span>
                         Home
                     </a>

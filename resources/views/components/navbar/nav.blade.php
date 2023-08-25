@@ -1,11 +1,11 @@
 <!-- Start Navbar -->
 
 <nav id="navbar"
-    class="bg-white border-b border-mlight/40 dark:bg-gray-900 fixed w-full z-40 top-0 left-0 transition-all delay-500">
+    class="bg-white border-b border-mlight/40 fixed w-full z-40 top-0 left-0 transition-all delay-500">
     <div class="container flex flex-wrap via-white items-center justify-between mx-auto px-4">
         <x-navbar.logo />
         <button data-collapse-toggle="navbar-multi-level" type="button"
-            class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+            class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200"
             aria-controls="navbar-multi-level" aria-expanded="false">
             <span class="sr-only">Open main menu</span>
             <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20"

@@ -19,8 +19,8 @@
         <input {{ $attributes->whereStartsWith('wire:model') }} id="{{ $id ?? '' }}" name="{{ $name ?? '' }}" type="{{
         $type ?? '' }}" required class="appearance-none flex w-full h-10 px-3 py-2 text-sm bg-white border
         border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-mblue focus:border-mblue p-2.5
-        dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-mblue
-        dark:focus:border-mbluedisabled:cursor-not-allowed disabled:opacity-50
+       
+        disabled:opacity-50
         @error($wireModel) border-red-300 text-red-900 placeholder-red-300 focus:border-red-300 focus:ring-red
         @enderror" placeholder="{{ $placeholder ?? '' }}" />
     </div>
