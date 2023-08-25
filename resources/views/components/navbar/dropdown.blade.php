@@ -1,7 +1,7 @@
 @props(['name', 'icon'=>'down', 'active'=>false, 'id'=>'Dropdown', 'placement' => 'bottom'])
 <li>
     <button id="{{ $id }}Link" data-dropdown-toggle="{{ $id }}" data-dropdown-trigger="hover" data-dropdown-delay="100"
-        class="flex items-center justify-between w-full px-4 py-2 text-gray-500 hover:bg-mblue hover:text-white hover:font-bold md:hover:bg-transparent md:border-0 md:hover:text-mblue md:p-0 md:w-auto dark:text-white md:dark:hover:text-mblue-500 dark:focus:text-white dark:hover:bg-gray-700 md:dark:hover:bg-transparent rounded-md"
+        class="flex items-center justify-between w-full px-4 py-2 text-gray-500 hover:bg-mblue hover:text-white hover:font-bold md:hover:bg-transparent md:border-0 md:hover:text-mblue md:p-0 md:w-auto md:dark:hover:text-mblue-500 md:dark:hover:bg-transparent rounded-md"
         data-dropdown-placement="{{ $placement }}">
         @if ($active)
         <span class="font-bold text-mblue">{{ $name ?? "Dropdown" }}</span>
@@ -29,7 +29,7 @@
 
     <!-- Dropdown menu -->
     <div id="{{ $id }}"
-        class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-52 dark:bg-gray-700 dark:divide-gray-600">
+        class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-52">
         <ul class="p-4 text-sm gap-y-4 flex flex-col" aria-labelledby="dropdownLargeButton">
             {{ $slot }}
         </ul>

@@ -1,6 +1,5 @@
 <!-- Footer Start -->
-<footer
-    class="relative px-4 text-gray-500 footer bg-gradient-to-br from-mwhite via-white to-mblue/40 dark:text-gray-200">
+<footer class="relative px-4 text-gray-500 footer bg-gradient-to-br from-mwhite via-white to-mblue/40">
     <div class="container mx-auto">
         <div class="grid grid-cols-12">
             <div class="col-span-12">
@@ -96,9 +95,9 @@
         <div class="py-[10px] container mx-auto">
             <p class="flex items-center justify-center w-full mb-0 text-sm lg:justify-end">
                 © {{ now()->year }} FDRE Ministry of Education
-                <span>
+                <a href="/login">
                     <img src="/ethiopia.png" alt="ethiopian flag" srcset="" class="w-5 mx-1">
-                </span>
+                </a>
             </p>
             <!--end grid-->
         </div>

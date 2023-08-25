@@ -3,7 +3,7 @@
     <div class="flex items-center mt-2 rounded-lg">
         <div class="flex">
             <button type="button"
-                class="flex flex-shrink-0 px-4 py-2 text-sm font-semibold border-0 rounded-lg cursor-pointer text-blue w-28 bg-blue/10 hover:bg-blue hover:text-white dark:bg-blue/90 dark:border-dark/70 dark:placeholder-blue/80 dark:text-white focus:border-none"
+                class="flex flex-shrink-0 px-4 py-2 text-sm font-semibold border-0 rounded-lg cursor-pointer text-blue w-28 bg-blue/10 hover:bg-blue hover:text-white focus:border-none"
                 id="button-{{ $id }}">
                 Choose File
             </button>

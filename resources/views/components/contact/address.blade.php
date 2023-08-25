@@ -2,7 +2,7 @@
 
 <div class="px-6 mt-6 text-center group">
     <div
-        class="flex items-center justify-center w-20 h-20 mx-auto text-3xl align-middle transition-all shadow-md cursor-pointer text-mblue bg-mblue/5 rounded-xl dark:shadow-gray-800 group-hover:bg-myellow group-hover:shadow-myellow/50">
+        class="flex items-center justify-center w-20 h-20 mx-auto text-3xl align-middle transition-all shadow-md cursor-pointer text-mblue bg-mblue/5 rounded-xl group-hover:bg-myellow group-hover:shadow-myellow/50">
         <i class="fi fi-rr-{{ $icon }}"></i>
     </div>
 

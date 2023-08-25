@@ -23,7 +23,7 @@
             </div>
 
             <div
-                class="flex w-full p-4 mx-auto border lg:rounded-xl border-mwhite bg-gradient-to-l from-mblue/5 dark:bg-gray-800 lg:p-8">
+                class="flex w-full p-4 mx-auto border lg:rounded-xl border-mwhite bg-gradient-to-l from-mblue/5 lg:p-8">
                 <form class="w-full">
                     <h3 class="mb-6 text-2xl font-bold leading-normal text-mblue">Get in touch !</h3>
                     <div class="grid md:gap-8 md:grid-cols-2">
@@ -45,9 +45,9 @@
                     </div>
 
                     {{-- <p class="mb-6 text-sm text-gray-500">By submitting this form you agree to our <a
-                            class="text-blue-600 dark:text-mblue hover:underline" href="/terms-and-conditions/">Terms
+                            class="text-blue-600 hover:underline" href="/terms-and-conditions/">Terms
                             &amp;
-                            conditions</a> and our <a class="text-blue-600 dark:text-mblue hover:underline"
+                            conditions</a> and our <a class="text-blue-600 hover:underline"
                             href="/privacy-policy/">Privacy Policy</a> which explains how we may collect, use and
                         disclose
                         your

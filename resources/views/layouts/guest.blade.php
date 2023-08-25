@@ -10,10 +10,11 @@
         <link href="/css/uicons.css" rel="stylesheet">
         <!-- Scripts -->
         @vite(['resources/css/app.css', 'resources/js/app.js'])
+        @livewireStyles
     </head>
 
     <body
-        class="h-auto text-base antialiased text-black  font-en dark:text-white bg-gradient-to-br from-white via-white to-mblue/5">
+        class="h-auto text-base antialiased text-black font-en dark:text-white bg-gradient-to-br from-white via-white to-mblue/5">
         <x-navbar.nav />
         <main>
             {{ $slot }}
