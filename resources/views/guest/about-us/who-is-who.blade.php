@@ -27,7 +27,7 @@
                 <x-ministers.card name="Susan Miller" title="Teachers and Educational leaders development"
                     image="https://cdn.devdojo.com/images/july2021/paul-richards.jpg" sector="General Education" />
 
-                <div class="grid col-span-2 gap-10 xl:col-span-3 md:grid-cols-2 xl:grid-cols-3">
+                <div class="grid col-span-2 gap-10 xl:col-span-3 md:grid-cols-2 2xl:grid-cols-3">
                     <x-ministers.card2 name="Paul Denson" position="Network Engineer"
                         photo="https://cdn.devdojo.com/images/june2021/avt-03.jpg" />
                     <x-ministers.card2 name="Yordanos Ayalew" position="Network Engineer"
@@ -42,7 +42,7 @@
                 <x-ministers.card name="Barbara Sanchez" title="Curriculum development executive"
                     image="https://cdn.devdojo.com/images/july2021/04-Barbara-Sanchez.jpg" sector="General Education" />
 
-                <div class="grid col-span-2 gap-10 xl:col-span-3 md:grid-cols-2 xl:grid-cols-3">
+                <div class="grid col-span-2 gap-10 xl:col-span-3 md:grid-cols-2 2xl:grid-cols-3">
                     <x-ministers.card2 name="Yordanos Ayalew" position="Network Engineer"
                         photo="https://cdn.devdojo.com/images/july2021/05-Sam-Lee.jpg"
                         department="Language and Co-curricular education curriculum desk" />
