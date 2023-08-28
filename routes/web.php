@@ -1,5 +1,6 @@
 <?php
 
+use App\Livewire\User\ListUser;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -60,4 +61,33 @@ Route::get('/contact-us', function () { return view('guest.contact-us');})->name
 // Admin Pages
 Route::middleware(['auth:sanctum',config('jetstream.auth_session'),  'verified'])->group(function () {
     Route::get('/dashboard', function () { return view('dashboard'); })->name('dashboard');
+
+    Route::get('/users', function () { return view('dashboard'); })->name('users-create');
+    Route::get('/users/index',  ListUser::class)->name('users.index');
+    Route::get('/user-access-level',  function () { return view('dashboard'); })->name('access-level');
+
+    Route::resource(
+        'roles', RoleController::class,
+    );
+
+     // web page admin routes
+     Route::get('/slides', function () { return view('dashboard'); })->name('slide.list');
+     Route::get('/slides/add', function () { return view('dashboard'); })->name('slide.add');
+     Route::get('/slides/{slide}', function () { return view('dashboard'); })->name('slide.edit');
+
+     Route::get('/admin-about', function () { return view('dashboard'); })->name('about.list');
+     Route::get('/admin-about/add', function () { return view('dashboard'); })->name('about.add');
+     Route::get('/admin-about/{about}', function () { return view('dashboard'); })->name('about.edit');
+
+     // News & Events
+     Route::get('/admin-news', function () { return view('dashboard'); })->name('news.list');
+     Route::get('/admin-news/add', function () { return view('dashboard'); })->name('news.add');
+     Route::get('/admin-news/{news}', function () { return view('dashboard'); })->name('news.edit');
+     Route::get('/admin-news-category/', function () { return view('dashboard'); })->name('category');
+
+     // Contact
+
+     Route::get('/admin-message', function () { return view('dashboard'); })->name('message');
+     Route::get('/social-links', function () { return view('dashboard'); })->name('social');
+
 });
