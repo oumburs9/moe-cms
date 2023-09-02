@@ -1,7 +1,7 @@
 @props(['title'=>'', 'h'=>'5rem'])
 <div {{ $attributes->merge([ 'class' => 'flex items-center w-full md:w-auto justify-center']) }}>
     <svg id="logo" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-        viewBox="0 0 194.38 194.38" class="w-auto  bg-white rounded-full transition-transform scale-100"
+        viewBox="0 0 194.38 194.38" class="w-auto transition-transform scale-100 bg-white rounded-full"
         style="height: {{ $h }}">
         <defs>
             <style>
@@ -175,11 +175,11 @@
     </svg>
 
     @if ($title)
-    <div class="-mr-2 flex-0 items-center text-mlight">
+    <div class="items-center -mr-2 flex-0 text-mlight">
         <span class="text-[10px] tracking-wide flex pl-3 -mb-3">
             FDRE
         </span>
-        <span class="px-3 inline-flex items-center justify-center  font-semibold">
+        <span class="inline-flex items-center justify-center px-3 font-semibold">
             Ministry of Education
         </span>
         <span>

@@ -3,17 +3,9 @@
     "file": "assets/NotoSansEthiopic-ExtraLight.c458c17d.woff",
     "src": "resources/fonts/NotoSansEthiopic-ExtraLight.woff"
   },
-  "resources/fonts/NotoSansEthiopic-Bold.woff": {
-    "file": "assets/NotoSansEthiopic-Bold.3c44d93c.woff",
-    "src": "resources/fonts/NotoSansEthiopic-Bold.woff"
-  },
-  "resources/fonts/NotoSansEthiopic-ExtraBold.woff": {
-    "file": "assets/NotoSansEthiopic-ExtraBold.aad7560c.woff",
-    "src": "resources/fonts/NotoSansEthiopic-ExtraBold.woff"
-  },
-  "resources/fonts/NotoSansEthiopic-SemiBold.woff": {
-    "file": "assets/NotoSansEthiopic-SemiBold.e9d00840.woff",
-    "src": "resources/fonts/NotoSansEthiopic-SemiBold.woff"
+  "resources/fonts/NotoSansEthiopic-Light.woff": {
+    "file": "assets/NotoSansEthiopic-Light.e88493e5.woff",
+    "src": "resources/fonts/NotoSansEthiopic-Light.woff"
   },
   "resources/fonts/NotoSansEthiopic-Regular.woff": {
     "file": "assets/NotoSansEthiopic-Regular.0f53dcd3.woff",
@@ -23,9 +15,17 @@
     "file": "assets/NotoSansEthiopic-Black.c75c434e.woff",
     "src": "resources/fonts/NotoSansEthiopic-Black.woff"
   },
-  "resources/fonts/NotoSansEthiopic-Light.woff": {
-    "file": "assets/NotoSansEthiopic-Light.e88493e5.woff",
-    "src": "resources/fonts/NotoSansEthiopic-Light.woff"
+  "resources/fonts/NotoSansEthiopic-ExtraBold.woff": {
+    "file": "assets/NotoSansEthiopic-ExtraBold.aad7560c.woff",
+    "src": "resources/fonts/NotoSansEthiopic-ExtraBold.woff"
+  },
+  "resources/fonts/NotoSansEthiopic-Bold.woff": {
+    "file": "assets/NotoSansEthiopic-Bold.3c44d93c.woff",
+    "src": "resources/fonts/NotoSansEthiopic-Bold.woff"
+  },
+  "resources/fonts/NotoSansEthiopic-SemiBold.woff": {
+    "file": "assets/NotoSansEthiopic-SemiBold.e9d00840.woff",
+    "src": "resources/fonts/NotoSansEthiopic-SemiBold.woff"
   },
   "resources/fonts/NunitoSans-ExtraLight.woff": {
     "file": "assets/NunitoSans-ExtraLight.9fa4e799.woff",
@@ -35,13 +35,13 @@
     "file": "assets/NunitoSans-Light.c4c897fd.woff",
     "src": "resources/fonts/NunitoSans-Light.woff"
   },
-  "resources/fonts/NunitoSans-Regular.woff": {
-    "file": "assets/NunitoSans-Regular.ef3c0cf1.woff",
-    "src": "resources/fonts/NunitoSans-Regular.woff"
-  },
   "resources/fonts/NunitoSans-SemiBold.woff": {
     "file": "assets/NunitoSans-SemiBold.de948482.woff",
     "src": "resources/fonts/NunitoSans-SemiBold.woff"
+  },
+  "resources/fonts/NunitoSans-Regular.woff": {
+    "file": "assets/NunitoSans-Regular.ef3c0cf1.woff",
+    "src": "resources/fonts/NunitoSans-Regular.woff"
   },
   "resources/fonts/NunitoSans-ExtraBold.woff": {
     "file": "assets/NunitoSans-ExtraBold.36778b83.woff",
@@ -56,12 +56,12 @@
     "src": "resources/fonts/NunitoSans-Bold.woff"
   },
   "resources/js/app.js": {
-    "file": "assets/app.95a08391.js",
+    "file": "assets/app.2b60a1f2.js",
     "src": "resources/js/app.js",
     "isEntry": true
   },
   "resources/css/app.css": {
-    "file": "assets/app.1fc40c88.css",
+    "file": "assets/app.c481daa7.css",
     "src": "resources/css/app.css",
     "isEntry": true
   }
