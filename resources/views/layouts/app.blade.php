@@ -9,33 +9,34 @@
         <title>{{ config('app.name', 'Admin') }}</title>
 
         <!-- Scripts -->
+        <link href="/css/uicons.css" rel="stylesheet">
         @vite(['resources/css/app.css', 'resources/js/app.js'])
 
         <!-- Styles -->
         @livewireStyles
     </head>
 
-    <body class="font-sans antialiased">
+    <body class="antialiased font-en">
         <x-banner />
+        <x-side-bar />
 
-        <div class="min-h-screen bg-gray-100">
-            @livewire('navigation-menu')
+        <div class="min-h-screen">
+            <div class="p-4 sm:ml-64">
+                @livewire('navigation-menu')
+                <!-- Page Heading -->
+                @if (isset($header))
+                <header class="relative flex items-center px-2 my-3 overflow-hidden list-none rounded-lg">
 
-            <!-- Page Heading -->
-            @if (isset($header))
-            <header class="bg-white shadow">
-                <div class="px-4 py-6 mx-auto max-w-7xl sm:px-6 lg:px-8">
                     {{ $header }}
-                </div>
-            </header>
-            @endif
-
-            <!-- Page Content -->
-            <main>
-                {{ $slot }}
-            </main>
+                </header>
+                @endif
+                <!-- Page Content -->
+                <main>
+                    {{ $slot }}
+                </main>
+            </div>
         </div>
-
+        <script defer src="https://cdn.jsdelivr.net/npm/@alpinejs/collapse@3.x.x/dist/cdn.min.js"></script>
         @stack('modals')
 
         @livewireScripts

@@ -33,12 +33,22 @@ module.exports = {
         //     lg: "0px 8px 20px 0px rgb(18, .16, .99, 0.0666)",
         // },
 
-        fontFamily: {
-            en: "'english', 'sans serif'",
-            am: "'amharic', 'sans serif'",
-        },
+        extend: {
+            fontFamily: {
+                en: "'english', 'sans serif'",
+                am: "'amharic', 'sans serif'",
+            },
 
-        extend: {},
+            keyframes: {
+                life: {
+                    "0%": { width: "100%" },
+                    "100%": { width: "0%" },
+                },
+            },
+            animation: {
+                life: "life 6000ms linear forwards",
+            },
+        },
     },
 
     plugins: [
